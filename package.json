@@ -1,0 +1,35 @@
+{
+	"name": "@somehow-digital/eslint-config",
+	"description": "Shared `eslint` configurations for `somehow.digital` projects.",
+	"version": "0.0.0",
+	"type": "module",
+	"license": "MIT",
+	"repository": "somehow-digital/eslint-config",
+	"scripts": {
+		"lint": "prettier --check .",
+		"format": "prettier --write .",
+		"prepare": "husky install"
+	},
+	"exports": {
+		".": "./configuration/basic.cjs",
+		"./basic": "./configuration/basic.cjs"
+	},
+	"files": [
+		"./configuration/"
+	],
+	"peerDependencies": {
+		"eslint": "^8.27.0",
+		"prettier": "^2.7.1"
+	},
+	"dependencies": {
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-prettier": "^4.2.1",
+		"eslint-plugin-unicorn": "^44.0.2"
+	},
+	"devDependencies": {
+		"@somehow-digital/prettier-config": "^1.0.1",
+		"husky": "^8.0.1",
+		"lint-staged": "^13.0.3",
+		"prettier": "2.7.1"
+	}
+}
