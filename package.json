@@ -1,7 +1,7 @@
 {
 	"name": "@somehow-digital/eslint-config",
 	"description": "Shared `eslint` configurations for `somehow.digital` projects.",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"type": "module",
 	"license": "MIT",
 	"repository": "somehow-digital/eslint-config",
