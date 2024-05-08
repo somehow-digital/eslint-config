@@ -5,10 +5,10 @@
 	"type": "module",
 	"license": "MIT",
 	"repository": "somehow-digital/eslint-config",
-	"packageManager": "pnpm@8.15.6",
+	"packageManager": "pnpm@9.1.0",
 	"engines": {
 		"node": ">=20",
-		"pnpm": ">=8"
+		"pnpm": ">=9"
 	},
 	"scripts": {
 		"lint": "prettier --check .",
