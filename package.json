@@ -14,7 +14,7 @@
 		"lint": "pnpm run /^lint:.+/",
 		"lint:eslint": "eslint '**/*.{js,jsx,ts,tsx}'",
 		"lint:prettier": "prettier --check '**/*.{md,json,yml,yaml}'",
-		"lint:cspell": "cspell --no-progress --no-summary '**/*.*'",
+		"lint:cspell": "cspell --no-progress --no-summary --no-must-find-files '**/*.*'",
 		"lint:knip": "knip --no-progress",
 		"prepare": "husky"
 	},
