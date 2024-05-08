@@ -1,6 +1,5 @@
 export default {
-	'*.{js,ts}': ['prettier --write'],
-	'*.{yml,yaml}': ['prettier --write'],
-	'*.{md}': ['prettier --write'],
-	'*.{json}': ['prettier --write'],
+	'**/*.{js,jsx,ts,tsx}': ['eslint'],
+	'**/*.{md,json,yml,yaml}': ['prettier --check'],
+	'**/*.*': ['cspell --no-progress'],
 };

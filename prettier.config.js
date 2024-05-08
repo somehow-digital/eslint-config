@@ -1,1 +1,5 @@
-export { default } from '@somehow-digital/prettier-config/basic';
+import config from '@somehow-digital/prettier-config';
+
+export default {
+	...config,
+};
