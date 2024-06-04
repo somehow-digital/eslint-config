@@ -1,7 +1,4 @@
 export default {
-	version: '0.2',
-	language: 'en',
-	ignorePaths: ['node_modules', 'package.json', 'pnpm-lock.yaml', '.gitignore'],
 	dictionaries: [
 		'en_US',
 		'softwareTerms',
@@ -12,4 +9,7 @@ export default {
 		'bash',
 		'misc',
 	],
+	ignorePaths: ['node_modules', 'package.json', 'pnpm-lock.yaml', '.gitignore'],
+	language: 'en',
+	version: '0.2',
 };

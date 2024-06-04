@@ -1,7 +1,7 @@
-import typescript from './configuration/typescript.js';
+import config from './configuration/basic.js';
 
 export default [
-	...typescript,
+	...config,
 	{
 		ignores: ['**/.*/'],
 	},
