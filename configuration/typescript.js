@@ -11,7 +11,13 @@ export default [
 		...javascript.configs.recommended,
 	},
 	{
-		languageOptions: typescript.configs.base.languageOptions,
+		languageOptions: {
+			...typescript.configs.base.languageOptions,
+			parserOptions: {
+				...typescript.configs.base.languageOptions.parserOptions,
+				projectService: true,
+			},
+		},
 		name: 'typescript',
 		plugins: typescript.configs.base.plugins,
 		rules: {
@@ -40,13 +46,5 @@ export default [
 		rules: {
 			'@cspell/spellchecker': 'error',
 		},
-	},
-	{
-		languageOptions: {
-			parserOptions: {
-				projectService: true,
-			},
-		},
-		name: 'custom',
 	},
 ];

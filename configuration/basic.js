@@ -6,15 +6,6 @@ import unicorn from 'eslint-plugin-unicorn';
 
 export default [
 	{
-		languageOptions: {
-			parserOptions: {
-				project: true,
-				tsconfigRootDir: import.meta.dirname,
-			},
-		},
-		name: 'parser',
-	},
-	{
 		name: 'javascript',
 		...javascript.configs.recommended,
 	},
