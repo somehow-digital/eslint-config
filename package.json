@@ -16,7 +16,11 @@
 		"lint:eslint": "eslint '**/*.{js,jsx,ts,tsx}'",
 		"lint:prettier": "prettier --check '**/*.{md,json,yml,yaml}'",
 		"lint:cspell": "cspell --no-progress --no-summary --no-must-find-files '**/*.*'",
-		"lint:knip": "knip --no-progress"
+		"lint:knip": "knip --no-progress",
+		"format": "pnpm run /^format:.+/",
+		"format:eslint": "eslint --fix '**/*.{js,jsx,ts,tsx}'",
+		"format:prettier": "prettier --write '**/*.{md,json,yml,yaml}'",
+		"format:knip": "knip --no-progress --fix"
 	},
 	"exports": {
 		".": "./configuration/basic.js",
