@@ -11,9 +11,16 @@ export default [
 		...javascript.configs.recommended,
 	},
 	{
+		languageOptions: typescript.configs.base.languageOptions,
 		name: 'typescript',
-		...typescript.configs.strictTypeChecked,
-		...typescript.configs.stylisticTypeChecked,
+		plugins: typescript.configs.base.plugins,
+		rules: {
+			...typescript.configs.strictTypeChecked[1].rules,
+			...typescript.configs.strictTypeChecked[2].rules,
+			...typescript.configs.stylisticTypeChecked[2].rules,
+			'@typescript-eslint/consistent-type-exports': 'error',
+			'@typescript-eslint/consistent-type-imports': 'error',
+		},
 	},
 	{
 		name: 'unicorn',
