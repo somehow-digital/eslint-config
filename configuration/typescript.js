@@ -22,6 +22,7 @@ export default [
 	{
 		name: 'typescript',
 		...typescript.configs.strictTypeChecked,
+		...typescript.configs.stylisticTypeChecked,
 	},
 	{
 		name: 'unicorn',
