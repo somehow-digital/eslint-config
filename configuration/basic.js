@@ -5,11 +5,33 @@ import prettier from 'eslint-plugin-prettier/recommended';
 import unicorn from 'eslint-plugin-unicorn';
 
 export default [
-	javascript.configs.recommended,
-	unicorn.configs['flat/recommended'],
-	perfectionist,
-	prettier,
 	{
+		languageOptions: {
+			parserOptions: {
+				project: true,
+				tsconfigRootDir: import.meta.dirname,
+			},
+		},
+		name: 'parser',
+	},
+	{
+		name: 'javascript',
+		...javascript.configs.recommended,
+	},
+	{
+		name: 'unicorn',
+		...unicorn.configs['flat/recommended'],
+	},
+	{
+		name: 'perfectionist',
+		...perfectionist,
+	},
+	{
+		name: 'prettier',
+		...prettier,
+	},
+	{
+		name: 'cspell',
 		...cspell,
 		rules: {
 			'@cspell/spellchecker': 'error',
