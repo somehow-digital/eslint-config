@@ -7,15 +7,6 @@ import typescript from 'typescript-eslint';
 
 export default [
 	{
-		languageOptions: {
-			parserOptions: {
-				project: true,
-				tsconfigRootDir: import.meta.dirname,
-			},
-		},
-		name: 'parser',
-	},
-	{
 		name: 'javascript',
 		...javascript.configs.recommended,
 	},
@@ -42,5 +33,14 @@ export default [
 		rules: {
 			'@cspell/spellchecker': 'error',
 		},
+	},
+	{
+		languageOptions: {
+			parserOptions: {
+				projectService: true,
+				tsconfigRootDir: import.meta.dirname,
+			},
+		},
+		name: 'custom',
 	},
 ];
