@@ -5,25 +5,34 @@ import prettier from 'eslint-plugin-prettier/recommended';
 import unicorn from 'eslint-plugin-unicorn';
 import typescript from 'typescript-eslint';
 
+const files = {
+	js: ['**/*.js', '**/*.cjs', '**/*.mjs', '**/*.jsx', '**/*.cjsx', '**/*.mjsx'],
+	ts: ['**/*.ts', '**/*.cts', '**/*.mts', '**/*.tsx', '**/*.ctsx', '**/*.mtsx'],
+};
+
 export default [
+	{
+		files: [...files.js, ...files.ts],
+		name: 'global',
+	},
 	{
 		name: 'javascript',
 		...javascript.configs.recommended,
 	},
 	{
 		languageOptions: {
-			...typescript.configs.base.languageOptions,
+			...typescript.configs.strict[0].languageOptions,
 			parserOptions: {
-				...typescript.configs.base.languageOptions.parserOptions,
 				projectService: true,
 			},
 		},
 		name: 'typescript',
-		plugins: typescript.configs.base.plugins,
+		plugins: typescript.configs.strict[0].plugins,
 		rules: {
-			...typescript.configs.strictTypeChecked[1].rules,
-			...typescript.configs.strictTypeChecked[2].rules,
-			...typescript.configs.stylisticTypeChecked[2].rules,
+			...typescript.configs.strict[1].rules,
+			...typescript.configs.strict[2].rules,
+			...typescript.configs.stylistic[1].rules,
+			...typescript.configs.stylistic[2].rules,
 			'@typescript-eslint/consistent-type-exports': 'error',
 			'@typescript-eslint/consistent-type-imports': 'error',
 		},

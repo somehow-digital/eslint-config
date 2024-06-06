@@ -8,8 +8,16 @@ export default {
 		'css',
 		'bash',
 		'misc',
+		'project',
 	],
-	ignorePaths: ['node_modules', 'package.json', 'pnpm-lock.yaml', '.gitignore'],
+	dictionaryDefinitions: [
+		{
+			addWords: true,
+			name: 'project',
+			path: './dictionary.txt',
+		},
+	],
+	ignorePaths: ['node_modules', 'package.json', '.gitignore'],
 	language: 'en',
 	version: '0.2',
 };

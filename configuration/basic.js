@@ -4,7 +4,15 @@ import perfectionist from 'eslint-plugin-perfectionist/configs/recommended-natur
 import prettier from 'eslint-plugin-prettier/recommended';
 import unicorn from 'eslint-plugin-unicorn';
 
+const files = {
+	js: ['**/*.js', '**/*.cjs', '**/*.mjs', '**/*.jsx', '**/*.cjsx', '**/*.mjsx'],
+};
+
 export default [
+	{
+		files: files.js,
+		name: 'global',
+	},
 	{
 		name: 'javascript',
 		...javascript.configs.recommended,
