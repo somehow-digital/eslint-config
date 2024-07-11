@@ -2,6 +2,7 @@ import cspell from '@cspell/eslint-plugin/recommended';
 import javascript from '@eslint/js';
 import perfectionist from 'eslint-plugin-perfectionist/configs/recommended-natural';
 import prettier from 'eslint-plugin-prettier/recommended';
+import promise from 'eslint-plugin-promise';
 import unicorn from 'eslint-plugin-unicorn';
 
 const files = {
@@ -16,6 +17,10 @@ export default [
 	{
 		name: 'javascript',
 		...javascript.configs.recommended,
+	},
+	{
+		name: 'promise',
+		...promise.configs['flat/recommended'],
 	},
 	{
 		name: 'unicorn',
