@@ -1,6 +1,7 @@
 export default {
 	dictionaries: [
 		'en_US',
+		'de-de',
 		'softwareTerms',
 		'typescript',
 		'node',
@@ -31,6 +32,7 @@ export default {
 		'.editorconfig',
 		'.prettierignore',
 	],
+	import: ['@cspell/dict-de-de'],
 	language: 'en',
 	version: '0.2',
 };
