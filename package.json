@@ -13,15 +13,15 @@
 	"scripts": {
 		"start": "eslint-config-inspector",
 		"prepare": "husky",
-		"lint": "pnpm run /^lint:.+/",
+		"lint": "concurrently --group --prefix-colors 'auto' 'pnpm:lint:*'",
 		"lint:eslint": "eslint '**/*.{js,jsx,ts,tsx}'",
 		"lint:prettier": "prettier --check '**/*.{md,json,yml,yaml}'",
 		"lint:cspell": "cspell --no-progress --no-summary --no-must-find-files '**/*.*'",
 		"lint:knip": "knip --no-progress",
-		"format": "pnpm run /^format:.+/",
-		"format:eslint": "eslint --fix '**/*.{js,jsx,ts,tsx}'",
-		"format:prettier": "prettier --write '**/*.{md,json,yml,yaml}'",
-		"format:knip": "knip --no-progress --fix"
+		"fix": "concurrently --group --prefix-colors 'auto' 'pnpm:fix:*'",
+		"fix:eslint": "eslint --fix '**/*.{js,jsx,ts,tsx}'",
+		"fix:prettier": "prettier --write '**/*.{md,json,yml,yaml}'",
+		"fix:knip": "knip --no-progress --fix"
 	},
 	"exports": {
 		".": "./configuration/basic.js",
@@ -52,6 +52,7 @@
 		"@eslint/config-inspector": "^0.5.1",
 		"@somehow-digital/commitlint-plugin-spellcheck": "^1.0.1",
 		"@somehow-digital/prettier-config": "^2.0.0",
+		"concurrently": "^8.2.2",
 		"cspell": "^8.8.4",
 		"eslint": "^9.4.0",
 		"husky": "^9.0.11",
