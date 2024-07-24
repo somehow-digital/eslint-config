@@ -1,6 +1,6 @@
 import cspell from '@cspell/eslint-plugin/recommended';
 import javascript from '@eslint/js';
-import perfectionist from 'eslint-plugin-perfectionist/configs/recommended-natural';
+import perfectionist from 'eslint-plugin-perfectionist';
 import prettier from 'eslint-plugin-prettier/recommended';
 import promise from 'eslint-plugin-promise';
 import unicorn from 'eslint-plugin-unicorn';
@@ -48,7 +48,7 @@ export default [
 	},
 	{
 		name: 'perfectionist',
-		...perfectionist,
+		...perfectionist.configs['recommended-natural'],
 	},
 	{
 		name: 'prettier',
