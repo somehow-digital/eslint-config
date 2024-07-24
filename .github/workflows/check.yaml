@@ -25,3 +25,5 @@ jobs:
           node-version-file: '.nvmrc'
       - name: install dependencies
         run: pnpm install
+      - name: lint codebase
+        run: pnpm lint
