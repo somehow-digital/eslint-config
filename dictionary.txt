@@ -1,6 +1,0 @@
-cjsx
-mjsx
-ctsx
-mtsx
-
-nvmrc

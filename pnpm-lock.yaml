@@ -36,15 +36,15 @@ importers:
       '@commitlint/cli':
         specifier: ^19.3.0
         version: 19.3.0(@types/node@20.14.12)(typescript@5.5.4)
-      '@cspell/dict-de-de':
-        specifier: ^4.0.0
-        version: 4.0.0
       '@eslint/config-inspector':
         specifier: ^0.5.1
         version: 0.5.2(eslint@9.8.0)
       '@somehow-digital/commitlint-plugin-spellcheck':
         specifier: ^1.0.1
         version: 1.0.1(cspell@8.13.1)
+      '@somehow-digital/cspell-dictionary':
+        specifier: ^1.0.0
+        version: 1.0.0(cspell@8.13.1)
       '@somehow-digital/prettier-config':
         specifier: ^2.0.0
         version: 2.0.0(prettier@3.3.3)
@@ -620,6 +620,12 @@ packages:
     engines: {node: '>=20.3.0', pnpm: '>=9.0.0'}
     peerDependencies:
       cspell: ^8.8.1
+
+  '@somehow-digital/cspell-dictionary@1.0.0':
+    resolution: {integrity: sha512-rTMu5qCnZJF1xhH7U8SM5lRbZ3FQao9d9LWg0qlcoUa5ooo5DjZ8eSq/okNYkatxley5fVZFzwkre8Z3AElkQg==}
+    engines: {node: '>=20.3.0', pnpm: '>=9.0.0'}
+    peerDependencies:
+      cspell: ^8.13.0
 
   '@somehow-digital/prettier-config@2.0.0':
     resolution: {integrity: sha512-6QwCArvScVHIIX35uNCbjnqhy5z+pyIMk6UL+8tJ6ThQ/kIUY3azgauo+Ww5ujWllYGAQ0+Qd/mZhkjkHFYlQQ==}
@@ -2739,6 +2745,11 @@ snapshots:
     dependencies:
       cspell: 8.13.1
       cspell-lib: 8.12.1
+
+  '@somehow-digital/cspell-dictionary@1.0.0(cspell@8.13.1)':
+    dependencies:
+      '@cspell/dict-de-de': 4.0.0
+      cspell: 8.13.1
 
   '@somehow-digital/prettier-config@2.0.0(prettier@3.3.3)':
     dependencies:
