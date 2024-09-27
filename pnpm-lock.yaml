@@ -39,9 +39,9 @@ importers:
       '@eslint/config-inspector':
         specifier: ^0.5.1
         version: 0.5.4(eslint@9.11.1(jiti@1.21.6))
-      '@somehow-digital/commitlint-plugin-spellcheck':
-        specifier: ^1.0.1
-        version: 1.0.1(cspell@8.14.4)
+      '@somehow-digital/commitlint-config':
+        specifier: ^1.0.0
+        version: 1.0.0(@commitlint/cli@19.5.0(@types/node@22.5.4)(typescript@5.6.2))(cspell@8.14.4)
       '@somehow-digital/cspell-dictionary':
         specifier: ^1.0.0
         version: 1.0.0(cspell@8.14.4)
@@ -680,6 +680,12 @@ packages:
     resolution: {integrity: sha512-lGFf08pbkEac0NYgVf4hdANpAgApRjNByLXB+WBip3qj1iendOIyAwP2GKkKbQMNVy2r1xxDf0ssfWscoiC+Vw==}
     engines: {node: '>=8.10'}
     hasBin: true
+
+  '@somehow-digital/commitlint-config@1.0.0':
+    resolution: {integrity: sha512-rDqDGyHfE26k81a/DDrqQ2E+Pf4cdhTkcUbb0Emz/tE/PWIpSvgG4ENvRYlziuS72+9wHxMTbBcvvtMCmkWGDw==}
+    engines: {node: '>=20', pnpm: '>=9'}
+    peerDependencies:
+      '@commitlint/cli': ^19.5.0
 
   '@somehow-digital/commitlint-plugin-spellcheck@1.0.1':
     resolution: {integrity: sha512-r/P+xImxEEDIzIpO3mnFv3OMwsIM35pRTUPz0U7XiCxFg83ft8ldR6WsXaYUVGmuhqABee+vNmCqtfS0Q/DKfQ==}
@@ -2862,6 +2868,13 @@ snapshots:
       commander: 4.1.1
       ignore: 5.3.2
       p-map: 4.0.0
+
+  '@somehow-digital/commitlint-config@1.0.0(@commitlint/cli@19.5.0(@types/node@22.5.4)(typescript@5.6.2))(cspell@8.14.4)':
+    dependencies:
+      '@commitlint/cli': 19.5.0(@types/node@22.5.4)(typescript@5.6.2)
+      '@somehow-digital/commitlint-plugin-spellcheck': 1.0.1(cspell@8.14.4)
+    transitivePeerDependencies:
+      - cspell
 
   '@somehow-digital/commitlint-plugin-spellcheck@1.0.1(cspell@8.14.4)':
     dependencies:
