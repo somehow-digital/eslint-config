@@ -44,7 +44,7 @@ importers:
         version: 1.1.0(@commitlint/cli@19.6.0(@types/node@22.9.0)(typescript@5.7.2))(cspell@8.16.0)
       '@somehow-digital/cspell-dictionary':
         specifier: ^2.0.0
-        version: 2.0.0(cspell@8.16.0)
+        version: 2.1.0(cspell@8.16.0)
       '@somehow-digital/prettier-config':
         specifier: ^2.0.0
         version: 2.0.0(prettier@3.3.3)
@@ -209,8 +209,8 @@ packages:
   '@cspell/dict-data-science@2.0.5':
     resolution: {integrity: sha512-nNSILXmhSJox9/QoXICPQgm8q5PbiSQP4afpbkBqPi/u/b3K9MbNH5HvOOa6230gxcGdbZ9Argl2hY/U8siBlg==}
 
-  '@cspell/dict-de-de@4.0.0':
-    resolution: {integrity: sha512-MLRMRy44xdjtBLW2jqO73RTbnNfSLztK/mG1/LSblY4hpWxc6iJBAVA7hQye8m06sde6FHgnP38x+jgql/6q6A==}
+  '@cspell/dict-de-de@4.0.3':
+    resolution: {integrity: sha512-HxoPd3ra/gHVeUKq9NMCX5gOHpaL9lyhHQi/2CXBrSE7yrB5cusrPoKFh+xYGI1hG8rrrPLLDKF+vbB66YR4/A==}
 
   '@cspell/dict-django@4.1.3':
     resolution: {integrity: sha512-yBspeL3roJlO0a1vKKNaWABURuHdHZ9b1L8d3AukX0AsBy9snSggc8xCavPmSzNfeMDXbH+1lgQiYBd3IW03fg==}
@@ -627,8 +627,8 @@ packages:
     peerDependencies:
       cspell: ^8.8.1
 
-  '@somehow-digital/cspell-dictionary@2.0.0':
-    resolution: {integrity: sha512-vlQe3rGNABelx7zCnps8JIn0Na4fXGnNqJplwzQyBIcuY8/uJsgLxcYqc/Bb7Om9OFl1R1dZpuFLsnbPC4fP3g==}
+  '@somehow-digital/cspell-dictionary@2.1.0':
+    resolution: {integrity: sha512-IVwMG39sOVAHcx8NbVWjlw1bT+VqUjQFFz7rzKqmhWbAXetyw78yfrvAOEPCAIvtpmF9OCrFC/G2p0uuNDKqtA==}
     engines: {node: '>=22', pnpm: '>=9'}
     peerDependencies:
       cspell: ^8.13.0
@@ -2310,7 +2310,7 @@ snapshots:
 
   '@cspell/dict-data-science@2.0.5': {}
 
-  '@cspell/dict-de-de@4.0.0': {}
+  '@cspell/dict-de-de@4.0.3': {}
 
   '@cspell/dict-django@4.1.3': {}
 
@@ -2628,9 +2628,9 @@ snapshots:
       cspell: 8.16.0
       cspell-lib: 8.16.0
 
-  '@somehow-digital/cspell-dictionary@2.0.0(cspell@8.16.0)':
+  '@somehow-digital/cspell-dictionary@2.1.0(cspell@8.16.0)':
     dependencies:
-      '@cspell/dict-de-de': 4.0.0
+      '@cspell/dict-de-de': 4.0.3
       cspell: 8.16.0
 
   '@somehow-digital/prettier-config@2.0.0(prettier@3.3.3)':
