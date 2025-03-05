@@ -49,8 +49,8 @@ importers:
         specifier: ^2.0.0
         version: 2.0.0(prettier@3.5.3)
       '@somehow-digital/semantic-release-config':
-        specifier: ^1.0.0
-        version: 1.0.0
+        specifier: ^2.0.0
+        version: 2.0.0
       concurrently:
         specifier: ^9.0.0
         version: 9.1.2
@@ -759,8 +759,8 @@ packages:
     peerDependencies:
       prettier: ^3.0.3
 
-  '@somehow-digital/semantic-release-config@1.0.0':
-    resolution: {integrity: sha512-09Ff5TIxc56SIYYI45f4QIimFvM1DE9O4d5WFMBA01N5D7aynBLvsXWTYzRxprcShpign/O9rHPbCtLqYGYj4A==}
+  '@somehow-digital/semantic-release-config@2.0.0':
+    resolution: {integrity: sha512-Nh7fiqqOXRTZ1wCbe9KzV8vK44BmcuzRoKXcz9p9AAgmIlPkXOfylWOVkhHhfFlf4DCNWfMALe3zEfVpqG/Zig==}
     engines: {node: '>=20', pnpm: '>=9'}
 
   '@types/conventional-commits-parser@5.0.1':
@@ -3466,7 +3466,7 @@ snapshots:
     dependencies:
       prettier: 3.5.3
 
-  '@somehow-digital/semantic-release-config@1.0.0': {}
+  '@somehow-digital/semantic-release-config@2.0.0': {}
 
   '@types/conventional-commits-parser@5.0.1':
     dependencies:
