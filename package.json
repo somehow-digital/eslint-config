@@ -51,7 +51,7 @@
 		"@eslint/config-inspector": "^1.0.0",
 		"@somehow-digital/commitlint-config": "^1.0.0",
 		"@somehow-digital/cspell-dictionary": "^2.0.0",
-		"@somehow-digital/prettier-config": "^2.0.0",
+		"@somehow-digital/prettier-config": "^3.0.0",
 		"@somehow-digital/semantic-release-config": "^2.0.0",
 		"concurrently": "^9.0.0",
 		"cspell": "^9.0.0",

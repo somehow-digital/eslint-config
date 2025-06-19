@@ -46,8 +46,8 @@ importers:
         specifier: ^2.0.0
         version: 2.7.0(cspell@9.1.1)
       '@somehow-digital/prettier-config':
-        specifier: ^2.0.0
-        version: 2.0.0(prettier@3.5.3)
+        specifier: ^3.0.0
+        version: 3.0.0(prettier@3.5.3)
       '@somehow-digital/semantic-release-config':
         specifier: ^2.0.0
         version: 2.0.2(semantic-release@24.2.5(typescript@5.8.3))
@@ -881,8 +881,9 @@ packages:
     peerDependencies:
       cspell: ^8.13.0 || ^9.0.0
 
-  '@somehow-digital/prettier-config@2.0.0':
-    resolution: {integrity: sha512-6QwCArvScVHIIX35uNCbjnqhy5z+pyIMk6UL+8tJ6ThQ/kIUY3azgauo+Ww5ujWllYGAQ0+Qd/mZhkjkHFYlQQ==}
+  '@somehow-digital/prettier-config@3.0.0':
+    resolution: {integrity: sha512-T+bO2tmp5AwkIcYf/k/f2J/0S2jSOXDSexHJiKe27SUbWI6SlXb8fMgfq8sdOfR+KiHPtp39UwauFzGu1Skcgg==}
+    engines: {node: '>=22', pnpm: '>=10'}
     peerDependencies:
       prettier: ^3.0.3
 
@@ -3764,7 +3765,7 @@ snapshots:
       '@cspell/dict-de-de': 4.1.0
       cspell: 9.1.1
 
-  '@somehow-digital/prettier-config@2.0.0(prettier@3.5.3)':
+  '@somehow-digital/prettier-config@3.0.0(prettier@3.5.3)':
     dependencies:
       prettier: 3.5.3
 
