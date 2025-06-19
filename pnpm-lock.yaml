@@ -50,7 +50,7 @@ importers:
         version: 2.0.0(prettier@3.5.3)
       '@somehow-digital/semantic-release-config':
         specifier: ^2.0.0
-        version: 2.0.1
+        version: 2.0.2(semantic-release@24.2.5(typescript@5.8.3))
       concurrently:
         specifier: ^9.0.0
         version: 9.1.2
@@ -886,9 +886,11 @@ packages:
     peerDependencies:
       prettier: ^3.0.3
 
-  '@somehow-digital/semantic-release-config@2.0.1':
-    resolution: {integrity: sha512-qLLcoZC85DRRuDZCoIMkr+EMLUAFnwl0kN7pI/FjenT5Z4XAZVmlcabAgMSzjWUckcLhziWLMRwhKCiUipzhzQ==}
+  '@somehow-digital/semantic-release-config@2.0.2':
+    resolution: {integrity: sha512-F2o2pXcGH+K/gdFFieUQIrBX2lbUIeGpOvZv73IiD39mGYi5kNsSVdLZAVpjOFL7/WqV/WRrqTaKAJlxBplhUA==}
     engines: {node: '>=20', pnpm: '>=10'}
+    peerDependencies:
+      semantic-release: ^24.0.0
 
   '@tybys/wasm-util@0.9.0':
     resolution: {integrity: sha512-6+7nlbMVX/PVDCwaIQ8nTOPveOcFLSt8GcXdx8hD0bt39uWxYT88uXzqTd4fTvqta7oeUJqudepapKNt2DYJFw==}
@@ -1203,6 +1205,10 @@ packages:
   conventional-changelog-conventionalcommits@7.0.2:
     resolution: {integrity: sha512-NKXYmMR/Hr1DevQegFB4MwfM5Vv0m4UIxKZTTYuD98lpTknaZlSRrDOG4X7wIXpGkfsYxZTghUN+Qq+T0YQI7w==}
     engines: {node: '>=16'}
+
+  conventional-changelog-conventionalcommits@9.0.0:
+    resolution: {integrity: sha512-5e48V0+DsWvQBEnnbBFhYQwYDzFPXVrakGPP1uSxekDkr5d7YWrmaWsgJpKFR0SkXmxK6qQr9O42uuLb9wpKxA==}
+    engines: {node: '>=18'}
 
   conventional-changelog-writer@8.1.0:
     resolution: {integrity: sha512-dpC440QnORNCO81XYuRRFOLCsjKj4W7tMkUIn3lR6F/FAaJcWLi7iCj6IcEvSQY2zw6VUgwUKd5DEHKEWrpmEQ==}
@@ -3762,7 +3768,10 @@ snapshots:
     dependencies:
       prettier: 3.5.3
 
-  '@somehow-digital/semantic-release-config@2.0.1': {}
+  '@somehow-digital/semantic-release-config@2.0.2(semantic-release@24.2.5(typescript@5.8.3))':
+    dependencies:
+      conventional-changelog-conventionalcommits: 9.0.0
+      semantic-release: 24.2.5(typescript@5.8.3)
 
   '@tybys/wasm-util@0.9.0':
     dependencies:
@@ -4111,6 +4120,10 @@ snapshots:
       compare-func: 2.0.0
 
   conventional-changelog-conventionalcommits@7.0.2:
+    dependencies:
+      compare-func: 2.0.0
+
+  conventional-changelog-conventionalcommits@9.0.0:
     dependencies:
       compare-func: 2.0.0
 
