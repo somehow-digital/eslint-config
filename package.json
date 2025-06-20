@@ -6,6 +6,11 @@
 	"license": "MIT",
 	"repository": "somehow-digital/eslint-config",
 	"packageManager": "pnpm@10.12.1",
+	"pnpm": {
+		"onlyBuiltDependencies": [
+			"esbuild"
+		]
+	},
 	"engines": {
 		"node": ">=20",
 		"pnpm": ">=10"
