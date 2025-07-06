@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@cspell/eslint-plugin':
         specifier: ^9.0.0
-        version: 9.1.2(eslint@9.30.1(jiti@2.4.2))
+        version: 9.1.3(eslint@9.30.1(jiti@2.4.2))
       '@eslint/js':
         specifier: ^9.4.0
         version: 9.30.1
@@ -41,10 +41,10 @@ importers:
         version: 1.1.0(eslint@9.30.1(jiti@2.4.2))
       '@somehow-digital/commitlint-config':
         specifier: ^1.0.0
-        version: 1.1.0(@commitlint/cli@19.8.1(@types/node@24.0.10)(typescript@5.8.3))(cspell@9.1.2)
+        version: 1.1.0(@commitlint/cli@19.8.1(@types/node@24.0.10)(typescript@5.8.3))(cspell@9.1.3)
       '@somehow-digital/cspell-dictionary':
         specifier: ^2.0.0
-        version: 2.11.0(cspell@9.1.2)
+        version: 2.11.0(cspell@9.1.3)
       '@somehow-digital/prettier-config':
         specifier: ^3.0.0
         version: 3.0.0(prettier@3.6.2)
@@ -56,7 +56,7 @@ importers:
         version: 9.2.0
       cspell:
         specifier: ^9.0.0
-        version: 9.1.2
+        version: 9.1.3
       eslint:
         specifier: ^9.4.0
         version: 9.30.1(jiti@2.4.2)
@@ -166,44 +166,44 @@ packages:
     resolution: {integrity: sha512-2ZRcZP/ncJ5q953o8i+R0fb8+14PDt5UefUNMrFZZHvfTI0jukAASOQeLY+WT6ASZv6CgbPrApAdbppy9FaXYQ==}
     engines: {node: '>=18'}
 
-  '@cspell/cspell-bundled-dicts@9.1.2':
-    resolution: {integrity: sha512-mdhxj7j1zqXYKO/KPx2MgN3RPAvqoWvncxz2dOMFBcuUteZPt58NenUoi0VZXEhV/FM2V80NvhHZZafaIcxVjQ==}
+  '@cspell/cspell-bundled-dicts@9.1.3':
+    resolution: {integrity: sha512-WbOkD32fjxz0hHMP6oTvAgi2VBlzYcqKPNwCo+4b9HefLWV5aiLaxp04d8CeifaAdlYjkjuqRTJXh/HfUeLCVg==}
     engines: {node: '>=20'}
 
-  '@cspell/cspell-json-reporter@9.1.2':
-    resolution: {integrity: sha512-sSva/ACXDJd9LufzecR9LC+lNWUuGWNtVHdVj0orJxOIZjHUCNBXwVSgL2fmMg7jNQS6qoJFJ7F/QPXdwITijg==}
+  '@cspell/cspell-json-reporter@9.1.3':
+    resolution: {integrity: sha512-FvzlSQuU+bNeo77v0KrA/lkoe324cHvZNhkx7Dtp1aj01FeBr5Y36gozR3DNY6tewBi6hC7uLeeNg/iSBf6CWg==}
     engines: {node: '>=20'}
 
   '@cspell/cspell-pipe@8.19.4':
     resolution: {integrity: sha512-GNAyk+7ZLEcL2fCMT5KKZprcdsq3L1eYy3e38/tIeXfbZS7Sd1R5FXUe6CHXphVWTItV39TvtLiDwN/2jBts9A==}
     engines: {node: '>=18'}
 
-  '@cspell/cspell-pipe@9.1.2':
-    resolution: {integrity: sha512-/pIhsf4SI4Q/kvehq9GsGKLgbQsRhiDgthQIgO6YOrEa761wOI2hVdRyc0Tgc1iAGiJEedDaFsAhabVRJBeo2g==}
+  '@cspell/cspell-pipe@9.1.3':
+    resolution: {integrity: sha512-Cns37ml7IaXMWBci9XOqdTkP9nFtOO8+sJ4VvtbVO68Zo8v0vq74ApDbPgGI2HzYtn7Jj2hxQqGIBdLnmrMPyA==}
     engines: {node: '>=20'}
 
   '@cspell/cspell-resolver@8.19.4':
     resolution: {integrity: sha512-S8vJMYlsx0S1D60glX8H2Jbj4mD8519VjyY8lu3fnhjxfsl2bDFZvF3ZHKsLEhBE+Wh87uLqJDUJQiYmevHjDg==}
     engines: {node: '>=18'}
 
-  '@cspell/cspell-resolver@9.1.2':
-    resolution: {integrity: sha512-dNDx7yMl2h1Ousk08lizTou+BUvce4RPSnPXrQPB7B7CscgZloSyuP3Yyj1Zt81pHNpggrym4Ezx6tMdyPjESw==}
+  '@cspell/cspell-resolver@9.1.3':
+    resolution: {integrity: sha512-3h9AkbY+YutBG91fQxeSpfIRT50sfrNQ7IAS0N6fCvJ6z0sXed7UPYwf90NauQp/1lN/bVlHFFAgxDEyG720Yg==}
     engines: {node: '>=20'}
 
   '@cspell/cspell-service-bus@8.19.4':
     resolution: {integrity: sha512-uhY+v8z5JiUogizXW2Ft/gQf3eWrh5P9036jN2Dm0UiwEopG/PLshHcDjRDUiPdlihvA0RovrF0wDh4ptcrjuQ==}
     engines: {node: '>=18'}
 
-  '@cspell/cspell-service-bus@9.1.2':
-    resolution: {integrity: sha512-YOsUctzCMzEJbKdzNyvPkyMen/i7sGO3Xgcczn848GJPlRsJc50QwsoU67SY7zEARz6y2WS0tv5F5RMrRO4idw==}
+  '@cspell/cspell-service-bus@9.1.3':
+    resolution: {integrity: sha512-Ss4cCnkJI3IHDSOQKxhtAfypvZZDzuJeXbZFVimLvO22/8GdVH+vQxAFm3kBY+ACVUAe13MQIYzZxuFHaM9y8g==}
     engines: {node: '>=20'}
 
   '@cspell/cspell-types@8.19.4':
     resolution: {integrity: sha512-ekMWuNlFiVGfsKhfj4nmc8JCA+1ZltwJgxiKgDuwYtR09ie340RfXFF6YRd2VTW5zN7l4F1PfaAaPklVz6utSg==}
     engines: {node: '>=18'}
 
-  '@cspell/cspell-types@9.1.2':
-    resolution: {integrity: sha512-bSDDjoQi4pbh1BULEA596XCo1PMShTpTb4J2lj8jVYqYgXYQNjSmQFA1fj4NHesC84JpK1um4ybzXBcqtniC7Q==}
+  '@cspell/cspell-types@9.1.3':
+    resolution: {integrity: sha512-JPLFMp6qKj4fjsEDvMjVXFZg+j3HaRQ7raFtR2RPidYyKcUHPCVhX0wfJ0vuYxkC0Yst+99tgVxR8Wi57xs2Ew==}
     engines: {node: '>=20'}
 
   '@cspell/dict-ada@4.1.0':
@@ -212,8 +212,8 @@ packages:
   '@cspell/dict-al@1.1.0':
     resolution: {integrity: sha512-PtNI1KLmYkELYltbzuoztBxfi11jcE9HXBHCpID2lou/J4VMYKJPNqe4ZjVzSI9NYbMnMnyG3gkbhIdx66VSXg==}
 
-  '@cspell/dict-aws@4.0.10':
-    resolution: {integrity: sha512-0qW4sI0GX8haELdhfakQNuw7a2pnWXz3VYQA2MpydH2xT2e6EN9DWFpKAi8DfcChm8MgDAogKkoHtIo075iYng==}
+  '@cspell/dict-aws@4.0.11':
+    resolution: {integrity: sha512-nesbrYbxP/ek7Nc3X1ENWxAXJ/2XIKGxauF0k4VSPLtMvWP50gHAEe+zmqFciFolwIVVjF2l+juDdUdBMPbMiw==}
 
   '@cspell/dict-bash@4.2.0':
     resolution: {integrity: sha512-HOyOS+4AbCArZHs/wMxX/apRkjxg6NDWdt0jF9i9XkvJQUltMwEhyA2TWYjQ0kssBsnof+9amax2lhiZnh3kCg==}
@@ -382,8 +382,8 @@ packages:
   '@cspell/dict-swift@2.0.5':
     resolution: {integrity: sha512-3lGzDCwUmnrfckv3Q4eVSW3sK3cHqqHlPprFJZD4nAqt23ot7fic5ALR7J4joHpvDz36nHX34TgcbZNNZOC/JA==}
 
-  '@cspell/dict-terraform@1.1.1':
-    resolution: {integrity: sha512-07KFDwCU7EnKl4hOZLsLKlj6Zceq/IsQ3LRWUyIjvGFfZHdoGtFdCp3ZPVgnFaAcd/DKv+WVkrOzUBSYqHopQQ==}
+  '@cspell/dict-terraform@1.1.2':
+    resolution: {integrity: sha512-RB9dnhxKIiWpwQB+b3JuFa8X4m+6Ny92Y4Z5QARR7jEtapg8iF2ODZX1yLtozp4kFVoRsUKEP6vj3MLv87VTdg==}
 
   '@cspell/dict-typescript@3.2.2':
     resolution: {integrity: sha512-H9Y+uUHsTIDFO/jdfUAcqmcd5osT+2DB5b0aRCHfLWN/twUbGn/1qq3b7YwEvttxKlYzWHU3uNFf+KfA93VY7w==}
@@ -395,12 +395,12 @@ packages:
     resolution: {integrity: sha512-0LLghC64+SiwQS20Sa0VfFUBPVia1rNyo0bYeIDoB34AA3qwguDBVJJkthkpmaP1R2JeR/VmxmJowuARc4ZUxA==}
     engines: {node: '>=18.0'}
 
-  '@cspell/dynamic-import@9.1.2':
-    resolution: {integrity: sha512-Kg22HCx5m0znVPLea2jRrvMnzHZAAzqcDr5g6Dbd4Pizs5b3SPQuRpFmYaDvKo26JNZnfRqA9eweiuE5aQAf2A==}
+  '@cspell/dynamic-import@9.1.3':
+    resolution: {integrity: sha512-+8PxTslsh+oTxmhYdnfQZ/brYGFAnfqLR9xotWE4Ks3HoaLOhZsp6FF9kvlEp/gNOjpyhHn1UhT/Gr5fT4+QhQ==}
     engines: {node: '>=20'}
 
-  '@cspell/eslint-plugin@9.1.2':
-    resolution: {integrity: sha512-UUCCBAyv3gTL1P19fX9C+cknkwCXHvnHUAaFBz25dX6PhJSPyYPmVdA8jm/2H6+GQYKBnHvWgfjkkiZgtqoQRA==}
+  '@cspell/eslint-plugin@9.1.3':
+    resolution: {integrity: sha512-0CqTAs1opvqpdI75d4h3KbI4n1l/JtCd7Wa3zkdalYoY+A4z/6vK222tJTnNgJguxG1usy1jd+snqOqdr3IJSg==}
     engines: {node: '>=20'}
     peerDependencies:
       eslint: ^7 || ^8 || ^9
@@ -409,24 +409,24 @@ packages:
     resolution: {integrity: sha512-D9hOCMyfKtKjjqQJB8F80PWsjCZhVGCGUMiDoQpcta0e+Zl8vHgzwaC0Ai4QUGBhwYEawHGiWUd7Y05u/WXiNQ==}
     engines: {node: '>=18'}
 
-  '@cspell/filetypes@9.1.2':
-    resolution: {integrity: sha512-j+6kDz3GbeYwwtlzVosqVaSiFGMhf0u3y8eAP3IV2bTelhP2ZiOLD+yNbAyYGao7p10/Sqv+Ri0yT7IsGLniww==}
+  '@cspell/filetypes@9.1.3':
+    resolution: {integrity: sha512-HRJEggDo6OJJmCc/gq7oriMqkqVDema+oLpGBh1a/M7ulw+CzoHkOa//1ohpAJh5KsWj9Tej9Va4BUZ/SaCwUA==}
     engines: {node: '>=20'}
 
   '@cspell/strong-weak-map@8.19.4':
     resolution: {integrity: sha512-MUfFaYD8YqVe32SQaYLI24/bNzaoyhdBIFY5pVrvMo1ZCvMl8AlfI2OcBXvcGb5aS5z7sCNCJm11UuoYbLI1zw==}
     engines: {node: '>=18'}
 
-  '@cspell/strong-weak-map@9.1.2':
-    resolution: {integrity: sha512-6X9oXnklvdt1pd0x0Mh6qXaaIRxjt0G50Xz5ZGm3wpAagv0MFvTThdmYVFfBuZ91x7fDT3u77y3d1uqdGQW1CA==}
+  '@cspell/strong-weak-map@9.1.3':
+    resolution: {integrity: sha512-+96SI9R6TOY+xGBOK5LiOgX/W/9gAKus1Cvngh2LdtDVZwgVqpqvm5LoXxLhUT+Vs5UsndRBzblSdNpziSwZtA==}
     engines: {node: '>=20'}
 
   '@cspell/url@8.19.4':
     resolution: {integrity: sha512-Pa474iBxS+lxsAL4XkETPGIq3EgMLCEb9agj3hAd2VGMTCApaiUvamR4b+uGXIPybN70piFxvzrfoxsG2uIP6A==}
     engines: {node: '>=18.0'}
 
-  '@cspell/url@9.1.2':
-    resolution: {integrity: sha512-PMJBuLYQIdFnEfPHQXaVE5hHUkbbOxOIRmHyZwWEc9+79tIaIkiwLpjZvbm8p6f9WXAaESqXs/uK2tUC/bjwmw==}
+  '@cspell/url@9.1.3':
+    resolution: {integrity: sha512-LQQKY0O4QYUNKyDod8VfEBvqeJNGHJlx1v0gDq00eMvaClnkIz+y2ObGdtDlF7ZbG7TgI6PQ3ahJdlqfRPe3ZQ==}
     engines: {node: '>=20'}
 
   '@emnapi/core@1.4.3':
@@ -739,68 +739,68 @@ packages:
   '@octokit/types@14.1.0':
     resolution: {integrity: sha512-1y6DgTy8Jomcpu33N+p5w58l6xyt55Ar2I91RPiIA0xCJBXyUAhXCcmZaDWSANiha7R9a6qJJ2CRomGPZ6f46g==}
 
-  '@oxc-resolver/binding-darwin-arm64@11.3.0':
-    resolution: {integrity: sha512-iEvscsg+grOxFpEzJE9nBhfMRwtfy2gd7tAPASusFhISteqSOzTcNdQwo4L/jWE1wt9SQF1BXs/6QHJbldWRVQ==}
+  '@oxc-resolver/binding-darwin-arm64@11.4.0':
+    resolution: {integrity: sha512-+mlX+/yoWv/IfWad97mn/5KVYtwe/VLjwtyoY04UUL+VrHk0MpANAorM9gFf+7K6GkQEaNkTK1g4GqwPI8OiCQ==}
     cpu: [arm64]
     os: [darwin]
 
-  '@oxc-resolver/binding-darwin-x64@11.3.0':
-    resolution: {integrity: sha512-dalUsxrsnZ69esao4qiIL0clK5d9qaRJVr+v+Bn4yGMk5o0B8eQP5lVzv6MiW5czQJpIO648CtsIXi0RLC7r7Q==}
+  '@oxc-resolver/binding-darwin-x64@11.4.0':
+    resolution: {integrity: sha512-uImuGdgleCPvZFfsYM7WnDW3PZ5z/cwrOt37MFd++rtrQ9kEL32ezl85eyatX2KsvGq7E8qg1DvHLVHOW259uQ==}
     cpu: [x64]
     os: [darwin]
 
-  '@oxc-resolver/binding-freebsd-x64@11.3.0':
-    resolution: {integrity: sha512-g3jirS9hGMeKvSgTWujiRpSXtBcIYj0545sY0XIkG37mCP4oIh94/ykrR60JuN8YjUSfYc+7UV6We5dP8+fzJQ==}
+  '@oxc-resolver/binding-freebsd-x64@11.4.0':
+    resolution: {integrity: sha512-/uFsbq+RWHiOktH1c9AysKZ++nHj76+chjQrCIvKalHYHKn6ydhMM6GwHL/pWq/gCZADbiKRQ0AOYLNf86hsZg==}
     cpu: [x64]
     os: [freebsd]
 
-  '@oxc-resolver/binding-linux-arm-gnueabihf@11.3.0':
-    resolution: {integrity: sha512-KO2key+SCiCJTyq8IFzl0WjonqtFPR0HLWTY8GnMENjBhY9o8P8LrNQ1rJVamRMMqFpCkOlKo4VAj2jMf6wqDQ==}
+  '@oxc-resolver/binding-linux-arm-gnueabihf@11.4.0':
+    resolution: {integrity: sha512-GPQcVSW2zgc8MtTF5ovIfmXkMCoGATzOmMOinLKjStvqq/KX9tBoVHhR/r7g7ChIJjozeXMMSYrf1q6r3zWXjA==}
     cpu: [arm]
     os: [linux]
 
-  '@oxc-resolver/binding-linux-arm64-gnu@11.3.0':
-    resolution: {integrity: sha512-nyAukSnWeA9K7Dot/52G1zvZiJAj3guW2AbiqDGv5awtEitOpBrppGsIbMli3sNU/tXOKnX5HJn43s/3ciYEgA==}
+  '@oxc-resolver/binding-linux-arm64-gnu@11.4.0':
+    resolution: {integrity: sha512-rrOFswgslH2i/e2HHP6ei2Z3ivWKvkU666eL1hPXkzHHzhlavIp5vOywjlNR7fZK/15PG4/GKcGsHAVunHd/+w==}
     cpu: [arm64]
     os: [linux]
 
-  '@oxc-resolver/binding-linux-arm64-musl@11.3.0':
-    resolution: {integrity: sha512-Aj2GAqX6vuUmTNZjvz10d2DMdzmEdrT3Oh1ac/+WE16rsnhD8liieLVM9ss/9jfiybHq/et3TsdBusdfG2BImA==}
+  '@oxc-resolver/binding-linux-arm64-musl@11.4.0':
+    resolution: {integrity: sha512-+OQ0rckRSYNP3wuEw+Asf5Is0elLeHkmhzlRAjx20lkITgSaNtkk7wDaqlpJmkcPv6ja3YkOoMiyclfS/FMSGA==}
     cpu: [arm64]
     os: [linux]
 
-  '@oxc-resolver/binding-linux-riscv64-gnu@11.3.0':
-    resolution: {integrity: sha512-rkdVhNkMzwpGV94o5Q+AdUNPlhEm38r/mAQpbvIQrWO59XQAM6OpVqi7W0Y45wwSbeFAoPdOwWCEZC6USREkZw==}
+  '@oxc-resolver/binding-linux-riscv64-gnu@11.4.0':
+    resolution: {integrity: sha512-hOmV2yNr4y5BVDaXPl3aCZASBsVLo4eAd7UWfItG2l1CMcZdtE35XIo0dB3xUg1DGDI5n02eo89014GN246aHA==}
     cpu: [riscv64]
     os: [linux]
 
-  '@oxc-resolver/binding-linux-s390x-gnu@11.3.0':
-    resolution: {integrity: sha512-NAOvR5pgPV1o7C9KwEUSmPQ+bxQOBKRXlQPRfcaCb0pZe/rhKqps/T3UCOKqVTp0dUwdCIcM11Ybs/wp6tzWbQ==}
+  '@oxc-resolver/binding-linux-s390x-gnu@11.4.0':
+    resolution: {integrity: sha512-STBciuunyjnQAhaJQoOEON3uQWL/Ad7mL+Ap8Q9A2Zw2bxZR7iW+tMu8pJDljHGVtGxtP1uurUt68kY9bMkFhA==}
     cpu: [s390x]
     os: [linux]
 
-  '@oxc-resolver/binding-linux-x64-gnu@11.3.0':
-    resolution: {integrity: sha512-rqfo/XwsVj/OW1LPaQiaTyOEPD+pp7CX9rIrnUDfa4DWA4GUpRSlH+9VXX/zYt3lbNaWayWvy0dTwZ59cQTUgQ==}
+  '@oxc-resolver/binding-linux-x64-gnu@11.4.0':
+    resolution: {integrity: sha512-x9uFAdBZ2SfVSWcQxza3GHo/5enZWLWb8Nf6zBCu0eBee/IL/z5oJIGpF/9xFwlvT4k35ZYHxBC33NGB4SkkGw==}
     cpu: [x64]
     os: [linux]
 
-  '@oxc-resolver/binding-linux-x64-musl@11.3.0':
-    resolution: {integrity: sha512-td0T/dunQrv4Yq3OcwYeOorJDt/kmG1/69D0tvPeZ6HhErG/fRPWKOSpKKlg5scMKEbII7qBJO0Msdc5MzWTBw==}
+  '@oxc-resolver/binding-linux-x64-musl@11.4.0':
+    resolution: {integrity: sha512-DrPkwPdufbka98aVvJP+qC29LP1MltUm6KPH0sJ5v9g5Tj+qcLi8i1EG5n8fnIqOI3vMtYs3DS2yMR2UGF7xyw==}
     cpu: [x64]
     os: [linux]
 
-  '@oxc-resolver/binding-wasm32-wasi@11.3.0':
-    resolution: {integrity: sha512-bpzvfpPmjMJ6D9I2htHU8M087D/rruubcCJOG/3cjLeHtGxsucEP8i8nazigWydLsZqU3cEkPSJwUJENI2/Pyg==}
+  '@oxc-resolver/binding-wasm32-wasi@11.4.0':
+    resolution: {integrity: sha512-fRBFgjhiUWTfz/7H/98r6SHsqCu3FvQPxbbDAs0wEVRvQdu7rZ2Ur2i4vKCZ6qLx6mDiBUKrkXy0btmU7eSrkQ==}
     engines: {node: '>=14.0.0'}
     cpu: [wasm32]
 
-  '@oxc-resolver/binding-win32-arm64-msvc@11.3.0':
-    resolution: {integrity: sha512-pmwT5jVufkLWEAxEKDWKlB2hHDRNS3TAYGjzyezAMGPx9qvI3rYIikZsUozyCYhp1TlTgxBB70R9Ma2vXQ6vVw==}
+  '@oxc-resolver/binding-win32-arm64-msvc@11.4.0':
+    resolution: {integrity: sha512-Vl32WwWT6aVk0qjfmXRH1BYwtLh8UHEanuuaNyAU4i/I9+Qx8SvNRNo39sRl1g7pHDcdeUgqFoNZkVXwIC5xVw==}
     cpu: [arm64]
     os: [win32]
 
-  '@oxc-resolver/binding-win32-x64-msvc@11.3.0':
-    resolution: {integrity: sha512-QvgzwCpoSpDTjFC/7pGPFGZDWRr52pOfTbuWfPwTQH+Jo/iCrQmh1Q8Yg81eED7dnPjdivDlXoM0iMgBz1gDBg==}
+  '@oxc-resolver/binding-win32-x64-msvc@11.4.0':
+    resolution: {integrity: sha512-bBvYlfLTV4uH5pXLnNlx4BZ9DAsV3yQHL3vhXE2PfQ+iZglBkSZU/f82hx8cNwewTaK08zJUz4m2vGMQiSyU8Q==}
     cpu: [x64]
     os: [win32]
 
@@ -1275,20 +1275,20 @@ packages:
     resolution: {integrity: sha512-LtFNZEWVrnpjiTNgEDsVN05UqhhJ1iA0HnTv4jsascPehlaUYVoyucgNbFeRs6UMaClJnqR0qT9lnPX+KO1OLg==}
     engines: {node: '>=18'}
 
-  cspell-config-lib@9.1.2:
-    resolution: {integrity: sha512-QvHHGUuMI5h3ymU6O/Qz8zfhMhvPTuopT1FgebYRBB1cyggl4KnEJKU9m7wy/SQ1IGSlFDtQp6rCy70ujTfavQ==}
+  cspell-config-lib@9.1.3:
+    resolution: {integrity: sha512-B3DdOTZNIOQahSkOYqaq2fOc8fq/jFkrOFd36kge/GAyEpY2Um/Kp/GQ6caOcev+ju0h3iGaO24OLCx6QJ3YoQ==}
     engines: {node: '>=20'}
 
   cspell-dictionary@8.19.4:
     resolution: {integrity: sha512-lr8uIm7Wub8ToRXO9f6f7in429P1Egm3I+Ps3ZGfWpwLTCUBnHvJdNF/kQqF7PL0Lw6acXcjVWFYT7l2Wdst2g==}
     engines: {node: '>=18'}
 
-  cspell-dictionary@9.1.2:
-    resolution: {integrity: sha512-Osn5f9ugkX/zA3PVtSmYKRer3gZX3YqVB0UH0wVNzi8Ryl/1RUuYLIcvd0SDEhiVW56WKxFLfZ5sggTz/l9cDA==}
+  cspell-dictionary@9.1.3:
+    resolution: {integrity: sha512-BXWwYQ64LaSOd7+8TLZax3AeUnTJUuIl+Tl32/dqcVpgDF4P0eAUVE5xap+QZ2rzKRVFjD8r5M6IR2QrA23o0g==}
     engines: {node: '>=20'}
 
-  cspell-gitignore@9.1.2:
-    resolution: {integrity: sha512-dbi7xPYYNT79gci9C3G/tldp13cvhuNXnIOSXJ5lXSDhinZFfrpFc0bOj195nn3HTL/EvlQ9Ga1a1+jOIZNVBQ==}
+  cspell-gitignore@9.1.3:
+    resolution: {integrity: sha512-yc7Td6L7ZHejm1OzwY/hyfBgyz3gpToMPDyztwbwOdrxXNLRIgDZVPvjVS67XvNf3dv55J19A/8r5Xd7yaV60w==}
     engines: {node: '>=20'}
     hasBin: true
 
@@ -1296,8 +1296,8 @@ packages:
     resolution: {integrity: sha512-042uDU+RjAz882w+DXKuYxI2rrgVPfRQDYvIQvUrY1hexH4sHbne78+OMlFjjzOCEAgyjnm1ktWUCCmh08pQUw==}
     engines: {node: '>=18'}
 
-  cspell-glob@9.1.2:
-    resolution: {integrity: sha512-l7Mqirn5h2tilTXgRamRIqqnzeA7R5iJEtJkY/zHDMEBeLWTR/5ai7dBp2+ooe8gIebpDtvv4938IXa5/75E6g==}
+  cspell-glob@9.1.3:
+    resolution: {integrity: sha512-If7gSgbWlUhLcmNA9zPflWzdUZs4wyRKB/Ze584wrht7zJR4yJm2Rptk2+M8kXEhx3zYS6UGhSL0alPbVAbjgQ==}
     engines: {node: '>=20'}
 
   cspell-grammar@8.19.4:
@@ -1305,8 +1305,8 @@ packages:
     engines: {node: '>=18'}
     hasBin: true
 
-  cspell-grammar@9.1.2:
-    resolution: {integrity: sha512-vUcnlUqJKK0yhwYHfGC71zjGyEn918l64U/NWb1ijn1VXrL6gsh3w8Acwdo++zbpOASd9HTAuuZelveDJKLLgA==}
+  cspell-grammar@9.1.3:
+    resolution: {integrity: sha512-L1OVY9RyZXPT+qesw0c7aRKTxQIC7nrLKDQ97hRrQhK23hv5Q8o7GVs1S7pXRNZ/oA8V+VNG2CgjLiKnVM2jnw==}
     engines: {node: '>=20'}
     hasBin: true
 
@@ -1314,28 +1314,28 @@ packages:
     resolution: {integrity: sha512-W48egJqZ2saEhPWf5ftyighvm4mztxEOi45ILsKgFikXcWFs0H0/hLwqVFeDurgELSzprr12b6dXsr67dV8amg==}
     engines: {node: '>=18'}
 
-  cspell-io@9.1.2:
-    resolution: {integrity: sha512-oLPxbteI+uFV9ZPcJjII7Lr/C/gVXpdmDLlAMwR8/7LHGnEfxXR0lqYu5GZVEvZ7riX9whCUOsQWQQqr2u2Fzw==}
+  cspell-io@9.1.3:
+    resolution: {integrity: sha512-fdgAVrthOY1pPsBZHWVjEVn6uHMAshj2n75eu2rvUd6EcmMuLR13EcIXHoMcQo/1Az05x2UgG7HuK+0MuRcikQ==}
     engines: {node: '>=20'}
 
   cspell-lib@8.19.4:
     resolution: {integrity: sha512-NwfdCCYtIBNQuZcoMlMmL3HSv2olXNErMi/aOTI9BBAjvCHjhgX5hbHySMZ0NFNynnN+Mlbu5kooJ5asZeB3KA==}
     engines: {node: '>=18'}
 
-  cspell-lib@9.1.2:
-    resolution: {integrity: sha512-OFCssgfp6Z2gd1K8j2FsYr9YGoA/C6xXlcUwgU75Ut/XMZ/S44chdA9fUupGd4dUOw+CZl0qKzSP21J6kYObIw==}
+  cspell-lib@9.1.3:
+    resolution: {integrity: sha512-egESsnErAPtC/wuqbHWW28eRKChkg5h+vFQQuZ0iThuOSZ65jeSM0ESOt8W3TH2JD7EGo2pvPED/7rZjjnMIcQ==}
     engines: {node: '>=20'}
 
   cspell-trie-lib@8.19.4:
     resolution: {integrity: sha512-yIPlmGSP3tT3j8Nmu+7CNpkPh/gBO2ovdnqNmZV+LNtQmVxqFd2fH7XvR1TKjQyctSH1ip0P5uIdJmzY1uhaYg==}
     engines: {node: '>=18'}
 
-  cspell-trie-lib@9.1.2:
-    resolution: {integrity: sha512-TkIQaknRRusUznqy+HwpqKCETCAznrzPJJHRHi8m6Zo3tAMsnIpaBQPRN8xem6w8/r/yJqFhLrsLSma0swyviQ==}
+  cspell-trie-lib@9.1.3:
+    resolution: {integrity: sha512-fvI0ede/rPr+SB0zX8le426c5lroNdmMTkl4fFk2e0w5/JZRHIfkuenhWe0MZeb18d1NPRIiLgxoD87zswLynw==}
     engines: {node: '>=20'}
 
-  cspell@9.1.2:
-    resolution: {integrity: sha512-XtFNCt2ZCvdSAbtntlYBumShdDsSbKdgPhwx/PfEL42uhXWR1owQPTxhtHz3nBF2SR11iDI3LDMMGDp8Fw0Gdg==}
+  cspell@9.1.3:
+    resolution: {integrity: sha512-QxpQn9rGIZN/neMU4hx9T4s9AL5nyRhumNCdYHjjU8Pi4ztZOzuVWbOQD1Oq5ygb92Aci76/DwbJQ1dmb4631Q==}
     engines: {node: '>=20'}
     hasBin: true
 
@@ -1388,8 +1388,8 @@ packages:
   duplexer2@0.1.4:
     resolution: {integrity: sha512-asLFVfWWtJ90ZyOUHMqk7/S2w2guQKxUI2itj3d92ADHhxUSbCMGi1f1cBcJ7xM1To+pE/Khbwo1yuNbMEPKeA==}
 
-  electron-to-chromium@1.5.178:
-    resolution: {integrity: sha512-wObbz/ar3Bc6e4X5vf0iO8xTN8YAjN/tgiAOJLr7yjYFtP9wAjq8Mb5h0yn6kResir+VYx2DXBj9NNobs0ETSA==}
+  electron-to-chromium@1.5.179:
+    resolution: {integrity: sha512-UWKi/EbBopgfFsc5k61wFpV7WrnnSlSzW/e2XcBmS6qKYTivZlLtoll5/rdqRTxGglGHkmkW0j0pFNJG10EUIQ==}
 
   emoji-regex@10.4.0:
     resolution: {integrity: sha512-EC+0oUMY1Rqm4O6LLrgjtYDvcVYTy7chDnM4Q7030tP4Kwj3u/pR6gP9ygnp2CJMK5Gq+9Q2oqmrFJAz01DXjw==}
@@ -2258,8 +2258,8 @@ packages:
     resolution: {integrity: sha512-6IpQ7mKUxRcZNLIObR0hz7lxsapSSIYNZJwXPGeF0mTVqGKFIXj1DQcMoT22S3ROcLyY/rz0PWaWZ9ayWmad9g==}
     engines: {node: '>= 0.8.0'}
 
-  oxc-resolver@11.3.0:
-    resolution: {integrity: sha512-Hd7oMoyyJrZyjNxXAhawmn+JQxUY0W3yK3kmoVZGJpY09g82ijRKKkqjKIbgly6Hc4WCfeb+2dQIKe7jO8j7/Q==}
+  oxc-resolver@11.4.0:
+    resolution: {integrity: sha512-J19ZMuUoGTsMc7TUacC5B5LQccZ6CluLmQ/RiC9mXKVvC8RCoiLjQOjEKrVolvxeU9q+TK1hrcJnmtZi/DqA6Q==}
 
   p-each-series@3.0.0:
     resolution: {integrity: sha512-lastgtAdoH9YaLyDa5i5z64q+kzOcQHsQ5SsZJD3q0VEyI8mq872S3geuNbRUQLVAE9siMfgKrpj7MloKFHruw==}
@@ -2908,8 +2908,8 @@ packages:
     peerDependencies:
       zod: ^3.25.0
 
-  zod@3.25.67:
-    resolution: {integrity: sha512-idA2YXwpCdqUSKRCACDE6ItZD9TZzy3OZMtpfLoh6oPR47lipysRrJfjzMqFxQ3uJuUPyUeWe1r9vLH33xO/Qw==}
+  zod@3.25.74:
+    resolution: {integrity: sha512-J8poo92VuhKjNknViHRAIuuN6li/EwFbAC8OedzI8uxpEPGiXHGQu9wemIAioIpqgfB4SySaJhdk0mH5Y4ICBg==}
 
 snapshots:
 
@@ -3038,7 +3038,7 @@ snapshots:
     dependencies:
       '@cspell/dict-ada': 4.1.0
       '@cspell/dict-al': 1.1.0
-      '@cspell/dict-aws': 4.0.10
+      '@cspell/dict-aws': 4.0.11
       '@cspell/dict-bash': 4.2.0
       '@cspell/dict-companies': 3.2.1
       '@cspell/dict-cpp': 6.0.8
@@ -3091,15 +3091,15 @@ snapshots:
       '@cspell/dict-sql': 2.2.0
       '@cspell/dict-svelte': 1.0.6
       '@cspell/dict-swift': 2.0.5
-      '@cspell/dict-terraform': 1.1.1
+      '@cspell/dict-terraform': 1.1.2
       '@cspell/dict-typescript': 3.2.2
       '@cspell/dict-vue': 3.0.4
 
-  '@cspell/cspell-bundled-dicts@9.1.2':
+  '@cspell/cspell-bundled-dicts@9.1.3':
     dependencies:
       '@cspell/dict-ada': 4.1.0
       '@cspell/dict-al': 1.1.0
-      '@cspell/dict-aws': 4.0.10
+      '@cspell/dict-aws': 4.0.11
       '@cspell/dict-bash': 4.2.0
       '@cspell/dict-companies': 3.2.1
       '@cspell/dict-cpp': 6.0.8
@@ -3152,39 +3152,39 @@ snapshots:
       '@cspell/dict-sql': 2.2.0
       '@cspell/dict-svelte': 1.0.6
       '@cspell/dict-swift': 2.0.5
-      '@cspell/dict-terraform': 1.1.1
+      '@cspell/dict-terraform': 1.1.2
       '@cspell/dict-typescript': 3.2.2
       '@cspell/dict-vue': 3.0.4
 
-  '@cspell/cspell-json-reporter@9.1.2':
+  '@cspell/cspell-json-reporter@9.1.3':
     dependencies:
-      '@cspell/cspell-types': 9.1.2
+      '@cspell/cspell-types': 9.1.3
 
   '@cspell/cspell-pipe@8.19.4': {}
 
-  '@cspell/cspell-pipe@9.1.2': {}
+  '@cspell/cspell-pipe@9.1.3': {}
 
   '@cspell/cspell-resolver@8.19.4':
     dependencies:
       global-directory: 4.0.1
 
-  '@cspell/cspell-resolver@9.1.2':
+  '@cspell/cspell-resolver@9.1.3':
     dependencies:
       global-directory: 4.0.1
 
   '@cspell/cspell-service-bus@8.19.4': {}
 
-  '@cspell/cspell-service-bus@9.1.2': {}
+  '@cspell/cspell-service-bus@9.1.3': {}
 
   '@cspell/cspell-types@8.19.4': {}
 
-  '@cspell/cspell-types@9.1.2': {}
+  '@cspell/cspell-types@9.1.3': {}
 
   '@cspell/dict-ada@4.1.0': {}
 
   '@cspell/dict-al@1.1.0': {}
 
-  '@cspell/dict-aws@4.0.10': {}
+  '@cspell/dict-aws@4.0.11': {}
 
   '@cspell/dict-bash@4.2.0':
     dependencies:
@@ -3303,7 +3303,7 @@ snapshots:
 
   '@cspell/dict-swift@2.0.5': {}
 
-  '@cspell/dict-terraform@1.1.1': {}
+  '@cspell/dict-terraform@1.1.2': {}
 
   '@cspell/dict-typescript@3.2.2': {}
 
@@ -3314,30 +3314,30 @@ snapshots:
       '@cspell/url': 8.19.4
       import-meta-resolve: 4.1.0
 
-  '@cspell/dynamic-import@9.1.2':
+  '@cspell/dynamic-import@9.1.3':
     dependencies:
-      '@cspell/url': 9.1.2
+      '@cspell/url': 9.1.3
       import-meta-resolve: 4.1.0
 
-  '@cspell/eslint-plugin@9.1.2(eslint@9.30.1(jiti@2.4.2))':
+  '@cspell/eslint-plugin@9.1.3(eslint@9.30.1(jiti@2.4.2))':
     dependencies:
-      '@cspell/cspell-types': 9.1.2
-      '@cspell/url': 9.1.2
-      cspell-lib: 9.1.2
+      '@cspell/cspell-types': 9.1.3
+      '@cspell/url': 9.1.3
+      cspell-lib: 9.1.3
       eslint: 9.30.1(jiti@2.4.2)
       synckit: 0.11.8
 
   '@cspell/filetypes@8.19.4': {}
 
-  '@cspell/filetypes@9.1.2': {}
+  '@cspell/filetypes@9.1.3': {}
 
   '@cspell/strong-weak-map@8.19.4': {}
 
-  '@cspell/strong-weak-map@9.1.2': {}
+  '@cspell/strong-weak-map@9.1.3': {}
 
   '@cspell/url@8.19.4': {}
 
-  '@cspell/url@9.1.2': {}
+  '@cspell/url@9.1.3': {}
 
   '@emnapi/core@1.4.3':
     dependencies:
@@ -3613,45 +3613,45 @@ snapshots:
     dependencies:
       '@octokit/openapi-types': 25.1.0
 
-  '@oxc-resolver/binding-darwin-arm64@11.3.0':
+  '@oxc-resolver/binding-darwin-arm64@11.4.0':
     optional: true
 
-  '@oxc-resolver/binding-darwin-x64@11.3.0':
+  '@oxc-resolver/binding-darwin-x64@11.4.0':
     optional: true
 
-  '@oxc-resolver/binding-freebsd-x64@11.3.0':
+  '@oxc-resolver/binding-freebsd-x64@11.4.0':
     optional: true
 
-  '@oxc-resolver/binding-linux-arm-gnueabihf@11.3.0':
+  '@oxc-resolver/binding-linux-arm-gnueabihf@11.4.0':
     optional: true
 
-  '@oxc-resolver/binding-linux-arm64-gnu@11.3.0':
+  '@oxc-resolver/binding-linux-arm64-gnu@11.4.0':
     optional: true
 
-  '@oxc-resolver/binding-linux-arm64-musl@11.3.0':
+  '@oxc-resolver/binding-linux-arm64-musl@11.4.0':
     optional: true
 
-  '@oxc-resolver/binding-linux-riscv64-gnu@11.3.0':
+  '@oxc-resolver/binding-linux-riscv64-gnu@11.4.0':
     optional: true
 
-  '@oxc-resolver/binding-linux-s390x-gnu@11.3.0':
+  '@oxc-resolver/binding-linux-s390x-gnu@11.4.0':
     optional: true
 
-  '@oxc-resolver/binding-linux-x64-gnu@11.3.0':
+  '@oxc-resolver/binding-linux-x64-gnu@11.4.0':
     optional: true
 
-  '@oxc-resolver/binding-linux-x64-musl@11.3.0':
+  '@oxc-resolver/binding-linux-x64-musl@11.4.0':
     optional: true
 
-  '@oxc-resolver/binding-wasm32-wasi@11.3.0':
+  '@oxc-resolver/binding-wasm32-wasi@11.4.0':
     dependencies:
       '@napi-rs/wasm-runtime': 0.2.11
     optional: true
 
-  '@oxc-resolver/binding-win32-arm64-msvc@11.3.0':
+  '@oxc-resolver/binding-win32-arm64-msvc@11.4.0':
     optional: true
 
-  '@oxc-resolver/binding-win32-x64-msvc@11.3.0':
+  '@oxc-resolver/binding-win32-x64-msvc@11.4.0':
     optional: true
 
   '@pkgr/core@0.2.7': {}
@@ -3747,23 +3747,23 @@ snapshots:
 
   '@sindresorhus/merge-streams@4.0.0': {}
 
-  '@somehow-digital/commitlint-config@1.1.0(@commitlint/cli@19.8.1(@types/node@24.0.10)(typescript@5.8.3))(cspell@9.1.2)':
+  '@somehow-digital/commitlint-config@1.1.0(@commitlint/cli@19.8.1(@types/node@24.0.10)(typescript@5.8.3))(cspell@9.1.3)':
     dependencies:
       '@commitlint/cli': 19.8.1(@types/node@24.0.10)(typescript@5.8.3)
       '@commitlint/config-conventional': 19.8.1
-      '@somehow-digital/commitlint-plugin-spellcheck': 1.0.1(cspell@9.1.2)
+      '@somehow-digital/commitlint-plugin-spellcheck': 1.0.1(cspell@9.1.3)
     transitivePeerDependencies:
       - cspell
 
-  '@somehow-digital/commitlint-plugin-spellcheck@1.0.1(cspell@9.1.2)':
+  '@somehow-digital/commitlint-plugin-spellcheck@1.0.1(cspell@9.1.3)':
     dependencies:
-      cspell: 9.1.2
+      cspell: 9.1.3
       cspell-lib: 8.19.4
 
-  '@somehow-digital/cspell-dictionary@2.11.0(cspell@9.1.2)':
+  '@somehow-digital/cspell-dictionary@2.11.0(cspell@9.1.3)':
     dependencies:
       '@cspell/dict-de-de': 4.1.0
-      cspell: 9.1.2
+      cspell: 9.1.3
 
   '@somehow-digital/prettier-config@3.0.0(prettier@3.6.2)':
     dependencies:
@@ -3969,7 +3969,7 @@ snapshots:
   browserslist@4.25.1:
     dependencies:
       caniuse-lite: 1.0.30001726
-      electron-to-chromium: 1.5.178
+      electron-to-chromium: 1.5.179
       node-releases: 2.0.19
       update-browserslist-db: 1.1.3(browserslist@4.25.1)
 
@@ -4194,10 +4194,11 @@ snapshots:
       comment-json: 4.2.5
       yaml: 2.8.0
 
-  cspell-config-lib@9.1.2:
+  cspell-config-lib@9.1.3:
     dependencies:
-      '@cspell/cspell-types': 9.1.2
+      '@cspell/cspell-types': 9.1.3
       comment-json: 4.2.5
+      smol-toml: 1.4.1
       yaml: 2.8.0
 
   cspell-dictionary@8.19.4:
@@ -4207,27 +4208,27 @@ snapshots:
       cspell-trie-lib: 8.19.4
       fast-equals: 5.2.2
 
-  cspell-dictionary@9.1.2:
+  cspell-dictionary@9.1.3:
     dependencies:
-      '@cspell/cspell-pipe': 9.1.2
-      '@cspell/cspell-types': 9.1.2
-      cspell-trie-lib: 9.1.2
+      '@cspell/cspell-pipe': 9.1.3
+      '@cspell/cspell-types': 9.1.3
+      cspell-trie-lib: 9.1.3
       fast-equals: 5.2.2
 
-  cspell-gitignore@9.1.2:
+  cspell-gitignore@9.1.3:
     dependencies:
-      '@cspell/url': 9.1.2
-      cspell-glob: 9.1.2
-      cspell-io: 9.1.2
+      '@cspell/url': 9.1.3
+      cspell-glob: 9.1.3
+      cspell-io: 9.1.3
 
   cspell-glob@8.19.4:
     dependencies:
       '@cspell/url': 8.19.4
       picomatch: 4.0.2
 
-  cspell-glob@9.1.2:
+  cspell-glob@9.1.3:
     dependencies:
-      '@cspell/url': 9.1.2
+      '@cspell/url': 9.1.3
       picomatch: 4.0.2
 
   cspell-grammar@8.19.4:
@@ -4235,20 +4236,20 @@ snapshots:
       '@cspell/cspell-pipe': 8.19.4
       '@cspell/cspell-types': 8.19.4
 
-  cspell-grammar@9.1.2:
+  cspell-grammar@9.1.3:
     dependencies:
-      '@cspell/cspell-pipe': 9.1.2
-      '@cspell/cspell-types': 9.1.2
+      '@cspell/cspell-pipe': 9.1.3
+      '@cspell/cspell-types': 9.1.3
 
   cspell-io@8.19.4:
     dependencies:
       '@cspell/cspell-service-bus': 8.19.4
       '@cspell/url': 8.19.4
 
-  cspell-io@9.1.2:
+  cspell-io@9.1.3:
     dependencies:
-      '@cspell/cspell-service-bus': 9.1.2
-      '@cspell/url': 9.1.2
+      '@cspell/cspell-service-bus': 9.1.3
+      '@cspell/url': 9.1.3
 
   cspell-lib@8.19.4:
     dependencies:
@@ -4277,24 +4278,24 @@ snapshots:
       vscode-uri: 3.1.0
       xdg-basedir: 5.1.0
 
-  cspell-lib@9.1.2:
+  cspell-lib@9.1.3:
     dependencies:
-      '@cspell/cspell-bundled-dicts': 9.1.2
-      '@cspell/cspell-pipe': 9.1.2
-      '@cspell/cspell-resolver': 9.1.2
-      '@cspell/cspell-types': 9.1.2
-      '@cspell/dynamic-import': 9.1.2
-      '@cspell/filetypes': 9.1.2
-      '@cspell/strong-weak-map': 9.1.2
-      '@cspell/url': 9.1.2
+      '@cspell/cspell-bundled-dicts': 9.1.3
+      '@cspell/cspell-pipe': 9.1.3
+      '@cspell/cspell-resolver': 9.1.3
+      '@cspell/cspell-types': 9.1.3
+      '@cspell/dynamic-import': 9.1.3
+      '@cspell/filetypes': 9.1.3
+      '@cspell/strong-weak-map': 9.1.3
+      '@cspell/url': 9.1.3
       clear-module: 4.1.2
       comment-json: 4.2.5
-      cspell-config-lib: 9.1.2
-      cspell-dictionary: 9.1.2
-      cspell-glob: 9.1.2
-      cspell-grammar: 9.1.2
-      cspell-io: 9.1.2
-      cspell-trie-lib: 9.1.2
+      cspell-config-lib: 9.1.3
+      cspell-dictionary: 9.1.3
+      cspell-glob: 9.1.3
+      cspell-grammar: 9.1.3
+      cspell-io: 9.1.3
+      cspell-trie-lib: 9.1.3
       env-paths: 3.0.0
       fast-equals: 5.2.2
       gensequence: 7.0.0
@@ -4310,28 +4311,28 @@ snapshots:
       '@cspell/cspell-types': 8.19.4
       gensequence: 7.0.0
 
-  cspell-trie-lib@9.1.2:
+  cspell-trie-lib@9.1.3:
     dependencies:
-      '@cspell/cspell-pipe': 9.1.2
-      '@cspell/cspell-types': 9.1.2
+      '@cspell/cspell-pipe': 9.1.3
+      '@cspell/cspell-types': 9.1.3
       gensequence: 7.0.0
 
-  cspell@9.1.2:
+  cspell@9.1.3:
     dependencies:
-      '@cspell/cspell-json-reporter': 9.1.2
-      '@cspell/cspell-pipe': 9.1.2
-      '@cspell/cspell-types': 9.1.2
-      '@cspell/dynamic-import': 9.1.2
-      '@cspell/url': 9.1.2
+      '@cspell/cspell-json-reporter': 9.1.3
+      '@cspell/cspell-pipe': 9.1.3
+      '@cspell/cspell-types': 9.1.3
+      '@cspell/dynamic-import': 9.1.3
+      '@cspell/url': 9.1.3
       chalk: 5.4.1
       chalk-template: 1.1.0
       commander: 14.0.0
-      cspell-config-lib: 9.1.2
-      cspell-dictionary: 9.1.2
-      cspell-gitignore: 9.1.2
-      cspell-glob: 9.1.2
-      cspell-io: 9.1.2
-      cspell-lib: 9.1.2
+      cspell-config-lib: 9.1.3
+      cspell-dictionary: 9.1.3
+      cspell-gitignore: 9.1.3
+      cspell-glob: 9.1.3
+      cspell-io: 9.1.3
+      cspell-lib: 9.1.3
       fast-json-stable-stringify: 2.1.0
       file-entry-cache: 9.1.0
       semver: 7.7.2
@@ -4372,7 +4373,7 @@ snapshots:
     dependencies:
       readable-stream: 2.3.8
 
-  electron-to-chromium@1.5.178: {}
+  electron-to-chromium@1.5.179: {}
 
   emoji-regex@10.4.0: {}
 
@@ -4951,14 +4952,14 @@ snapshots:
       jiti: 2.4.2
       js-yaml: 4.1.0
       minimist: 1.2.8
-      oxc-resolver: 11.3.0
+      oxc-resolver: 11.4.0
       picocolors: 1.1.1
       picomatch: 4.0.2
       smol-toml: 1.4.1
       strip-json-comments: 5.0.2
       typescript: 5.8.3
-      zod: 3.25.67
-      zod-validation-error: 3.5.2(zod@3.25.67)
+      zod: 3.25.74
+      zod-validation-error: 3.5.2(zod@3.25.74)
 
   levn@0.4.1:
     dependencies:
@@ -5182,21 +5183,21 @@ snapshots:
       type-check: 0.4.0
       word-wrap: 1.2.5
 
-  oxc-resolver@11.3.0:
+  oxc-resolver@11.4.0:
     optionalDependencies:
-      '@oxc-resolver/binding-darwin-arm64': 11.3.0
-      '@oxc-resolver/binding-darwin-x64': 11.3.0
-      '@oxc-resolver/binding-freebsd-x64': 11.3.0
-      '@oxc-resolver/binding-linux-arm-gnueabihf': 11.3.0
-      '@oxc-resolver/binding-linux-arm64-gnu': 11.3.0
-      '@oxc-resolver/binding-linux-arm64-musl': 11.3.0
-      '@oxc-resolver/binding-linux-riscv64-gnu': 11.3.0
-      '@oxc-resolver/binding-linux-s390x-gnu': 11.3.0
-      '@oxc-resolver/binding-linux-x64-gnu': 11.3.0
-      '@oxc-resolver/binding-linux-x64-musl': 11.3.0
-      '@oxc-resolver/binding-wasm32-wasi': 11.3.0
-      '@oxc-resolver/binding-win32-arm64-msvc': 11.3.0
-      '@oxc-resolver/binding-win32-x64-msvc': 11.3.0
+      '@oxc-resolver/binding-darwin-arm64': 11.4.0
+      '@oxc-resolver/binding-darwin-x64': 11.4.0
+      '@oxc-resolver/binding-freebsd-x64': 11.4.0
+      '@oxc-resolver/binding-linux-arm-gnueabihf': 11.4.0
+      '@oxc-resolver/binding-linux-arm64-gnu': 11.4.0
+      '@oxc-resolver/binding-linux-arm64-musl': 11.4.0
+      '@oxc-resolver/binding-linux-riscv64-gnu': 11.4.0
+      '@oxc-resolver/binding-linux-s390x-gnu': 11.4.0
+      '@oxc-resolver/binding-linux-x64-gnu': 11.4.0
+      '@oxc-resolver/binding-linux-x64-musl': 11.4.0
+      '@oxc-resolver/binding-wasm32-wasi': 11.4.0
+      '@oxc-resolver/binding-win32-arm64-msvc': 11.4.0
+      '@oxc-resolver/binding-win32-x64-msvc': 11.4.0
 
   p-each-series@3.0.0: {}
 
@@ -5762,8 +5763,8 @@ snapshots:
 
   yoctocolors@2.1.1: {}
 
-  zod-validation-error@3.5.2(zod@3.25.67):
+  zod-validation-error@3.5.2(zod@3.25.74):
     dependencies:
-      zod: 3.25.67
+      zod: 3.25.74
 
-  zod@3.25.67: {}
+  zod@3.25.74: {}
