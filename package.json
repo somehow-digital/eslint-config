@@ -1,16 +1,17 @@
 {
 	"name": "@somehow-digital/eslint-config",
-	"description": "Shared `eslint` configurations for `somehow.digital` projects.",
-	"version": "3.0.0",
 	"type": "module",
+	"version": "3.0.0",
+	"packageManager": "pnpm@10.13.1",
+	"description": "Shared `eslint` configurations for `somehow.digital` projects.",
 	"license": "MIT",
 	"repository": "somehow-digital/eslint-config",
-	"packageManager": "pnpm@10.13.1",
-	"pnpm": {
-		"onlyBuiltDependencies": [
-			"esbuild"
-		]
+	"exports": {
+		".": "./configuration/index.js"
 	},
+	"files": [
+		"./configuration/"
+	],
 	"engines": {
 		"node": ">=20",
 		"pnpm": ">=10"
@@ -19,37 +20,25 @@
 		"start": "eslint-config-inspector",
 		"prepare": "husky",
 		"lint": "concurrently --group --prefix-colors 'auto' 'pnpm:lint:*'",
-		"lint:eslint": "eslint '**/*.{js,jsx,ts,tsx}'",
-		"lint:prettier": "prettier --check '**/*.{md,json,yml,yaml}'",
-		"lint:cspell": "cspell --no-progress --no-summary --no-must-find-files '**/*.*'",
+		"lint:eslint": "eslint .",
+		"lint:cspell": "cspell --no-progress --no-summary --no-must-find-files .",
 		"lint:knip": "knip --no-progress",
 		"fix": "concurrently --group --prefix-colors 'auto' 'pnpm:fix:*'",
-		"fix:eslint": "eslint --fix '**/*.{js,jsx,ts,tsx}'",
-		"fix:prettier": "prettier --write '**/*.{md,json,yml,yaml}'",
+		"fix:eslint": "eslint --fix .",
 		"fix:knip": "knip --no-progress --fix"
 	},
-	"exports": {
-		".": "./configuration/basic.js",
-		"./basic": "./configuration/basic.js",
-		"./typescript": "./configuration/typescript.js"
-	},
-	"files": [
-		"./configuration/"
-	],
 	"peerDependencies": {
-		"eslint": "^9.3.0",
-		"prettier": "^3.2.0",
-		"typescript": "^5.4.0"
+		"eslint": "^9.5.0"
 	},
 	"dependencies": {
-		"@cspell/eslint-plugin": "^9.0.0",
-		"@eslint/js": "^9.4.0",
-		"eslint-config-prettier": "^10.0.0",
-		"eslint-plugin-perfectionist": "^4.0.0",
-		"eslint-plugin-prettier": "^5.1.3",
-		"eslint-plugin-promise": "^7.0.0",
-		"eslint-plugin-unicorn": "^59.0.0",
-		"typescript-eslint": "^8.0.0"
+		"@antfu/eslint-config": "^4.17.0",
+		"@eslint-react/eslint-plugin": "^1.52.3",
+		"@prettier/plugin-xml": "^3.4.2",
+		"@unocss/eslint-plugin": "^66.3.3",
+		"eslint-plugin-astro": "^1.3.1",
+		"eslint-plugin-format": "^1.0.1",
+		"eslint-plugin-react-hooks": "^5.2.0",
+		"eslint-plugin-react-refresh": "^0.4.20"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^19.3.0",
@@ -62,10 +51,15 @@
 		"cspell": "^9.0.0",
 		"eslint": "^9.4.0",
 		"husky": "^9.0.11",
+		"jiti": "^2.4.2",
 		"knip": "^5.17.4",
 		"lint-staged": "^16.0.0",
-		"prettier": "3.6.2",
-		"semantic-release": "^24.2.0",
-		"typescript": "^5.4.5"
+		"prettier": "^3.6.2",
+		"semantic-release": "^24.2.0"
+	},
+	"pnpm": {
+		"onlyBuiltDependencies": [
+			"esbuild"
+		]
 	}
 }
