@@ -1,5 +1,4 @@
 export default {
-	entry: ['configuration/*.js'],
+	entry: ['configuration/*.ts'],
 	ignoreDependencies: ['@somehow-digital/semantic-release-config'],
-	project: ['configuration/**'],
 };
