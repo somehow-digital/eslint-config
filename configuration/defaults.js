@@ -1,5 +1,3 @@
-import type { OptionsConfig } from '@antfu/eslint-config';
-
 export default {
 	formatters: {
 		css: true,
@@ -22,4 +20,4 @@ export default {
 		indent: 'tab',
 		semi: true,
 	},
-} satisfies OptionsConfig;
+};

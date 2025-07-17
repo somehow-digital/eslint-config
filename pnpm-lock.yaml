@@ -63,9 +63,6 @@ importers:
       husky:
         specifier: ^9.0.11
         version: 9.1.7
-      jiti:
-        specifier: ^2.4.2
-        version: 2.4.2
       knip:
         specifier: ^5.17.4
         version: 5.61.3(@types/node@24.0.13)(typescript@5.8.3)
