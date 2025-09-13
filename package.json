@@ -2,7 +2,7 @@
 	"name": "@somehow-digital/eslint-config",
 	"type": "module",
 	"version": "3.0.0",
-	"packageManager": "pnpm@10.15.1",
+	"packageManager": "pnpm@10.16.0",
 	"description": "Shared `eslint` configurations for `somehow.digital` projects.",
 	"license": "MIT",
 	"repository": "somehow-digital/eslint-config",
