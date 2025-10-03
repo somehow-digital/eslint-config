@@ -41,7 +41,7 @@
 		"eslint-plugin-react-refresh": "^0.4.20"
 	},
 	"devDependencies": {
-		"@commitlint/cli": "^19.3.0",
+		"@commitlint/cli": "^20.0.0",
 		"@eslint/config-inspector": "^1.0.0",
 		"@somehow-digital/commitlint-config": "^1.0.0",
 		"@somehow-digital/cspell-dictionary": "^2.0.0",
