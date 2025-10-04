@@ -3,7 +3,6 @@ export default {
 		css: true,
 		html: true,
 		markdown: true,
-		svg: true,
 		xml: true,
 	},
 	imports: {
