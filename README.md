@@ -1,6 +1,6 @@
 # `eslint` configurations
 
-> Shared `eslint` configurations for `somehow.digital` projects.
+> Shared `eslint` configuration for `somehow.digital` projects.
 
 ---
 
@@ -13,13 +13,9 @@ pnpm add -D @somehow-digital/eslint-config
 **use**
 
 ```js
-import config from '@somehow-digital/eslint-config/basic';
+import config from '@somehow-digital/eslint-config';
 
-export default [...config];
-```
-
-```ts
-import config from '@somehow-digital/eslint-config/typescript';
-
-export default [...config];
+export default config({
+	unocss: true,
+});
 ```
