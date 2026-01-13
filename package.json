@@ -31,7 +31,7 @@
 		"eslint": "^9.5.0"
 	},
 	"dependencies": {
-		"@antfu/eslint-config": "^6.0.0",
+		"@antfu/eslint-config": "^7.0.0",
 		"@eslint-react/eslint-plugin": "^2.0.0",
 		"@prettier/plugin-xml": "^3.4.2",
 		"@unocss/eslint-plugin": "^66.3.3",
