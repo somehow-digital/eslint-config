@@ -13,7 +13,7 @@
 		"./configuration/"
 	],
 	"engines": {
-		"node": ">=20",
+		"node": ">=24",
 		"pnpm": ">=10"
 	},
 	"scripts": {
@@ -28,7 +28,7 @@
 		"fix:knip": "knip --no-progress --fix"
 	},
 	"peerDependencies": {
-		"eslint": "^9.5.0 || ^10.0.0"
+		"eslint": "^10.0.0"
 	},
 	"dependencies": {
 		"@antfu/eslint-config": "^7.0.0",
