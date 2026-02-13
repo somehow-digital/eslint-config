@@ -50,7 +50,7 @@ importers:
         version: 3.0.0(prettier@3.8.1)
       '@somehow-digital/semantic-release-config':
         specifier: ^2.0.0
-        version: 2.0.2(semantic-release@25.0.3(typescript@5.9.3))
+        version: 2.1.0(semantic-release@25.0.3(typescript@5.9.3))
       concurrently:
         specifier: ^9.0.0
         version: 9.2.1
@@ -1133,11 +1133,11 @@ packages:
     peerDependencies:
       prettier: ^3.0.3
 
-  '@somehow-digital/semantic-release-config@2.0.2':
-    resolution: {integrity: sha512-F2o2pXcGH+K/gdFFieUQIrBX2lbUIeGpOvZv73IiD39mGYi5kNsSVdLZAVpjOFL7/WqV/WRrqTaKAJlxBplhUA==}
+  '@somehow-digital/semantic-release-config@2.1.0':
+    resolution: {integrity: sha512-mmj5cCgfLAriM0V2zlsTwRo+brLNnI9OPFA+yPxnvK4jYd7s8JixRTKTVZNMFYDOVDqJAv8IGqg7HvANeZyTwQ==}
     engines: {node: '>=20', pnpm: '>=10'}
     peerDependencies:
-      semantic-release: ^24.0.0
+      semantic-release: ^24.0.0 || ^25.0.0
 
   '@stylistic/eslint-plugin@5.8.0':
     resolution: {integrity: sha512-WNPVF/FfBAjyi3OA7gok8swRiImNLKI4dmV3iK/GC/0xSJR7eCzBFsw9hLZVgb1+MYNLy7aDsjohxN1hA/FIfQ==}
@@ -4819,7 +4819,7 @@ snapshots:
     dependencies:
       prettier: 3.8.1
 
-  '@somehow-digital/semantic-release-config@2.0.2(semantic-release@25.0.3(typescript@5.9.3))':
+  '@somehow-digital/semantic-release-config@2.1.0(semantic-release@25.0.3(typescript@5.9.3))':
     dependencies:
       conventional-changelog-conventionalcommits: 9.1.0
       semantic-release: 25.0.3(typescript@5.9.3)
