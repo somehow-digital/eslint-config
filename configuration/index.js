@@ -5,5 +5,9 @@ export default function config(options, ...configurations) {
 	return antfu({
 		...defaults,
 		...options,
+	}, {
+		rules: {
+			'toml/indent': ['error', 2],
+		},
 	}, ...configurations);
 }
