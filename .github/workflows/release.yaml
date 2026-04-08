@@ -9,10 +9,13 @@ jobs:
   source:
     name: verify source
     uses: ./.github/workflows/source.yaml
+  security:
+    name: verify security
+    uses: ./.github/workflows/security.yaml
   release:
     name: release version
     runs-on: ubuntu-latest
-    needs: [source]
+    needs: [source, security]
     permissions:
       id-token: write
       issues: write
