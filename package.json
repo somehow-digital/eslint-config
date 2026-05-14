@@ -41,7 +41,7 @@
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^21.0.0",
-		"@eslint/config-inspector": "^2.0.0",
+		"@eslint/config-inspector": "^3.0.0",
 		"@somehow-digital/commitlint-config": "^1.0.0",
 		"@somehow-digital/cspell-dictionary": "^2.0.0",
 		"@somehow-digital/prettier-config": "^3.0.0",
