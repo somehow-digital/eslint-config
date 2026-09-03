@@ -1,10 +1,11 @@
-allowBuilds:
-  esbuild: true
 blockExoticSubdeps: true
-enablePrePostScripts: false
-ignorePatchFailures: false
-optimisticRepeatInstall: true
-shellEmulator: true
+minimumReleaseAgeExcludePrune: true
 trustPolicy: no-downgrade
 trustPolicyIgnoreAfter: 10080
+enablePrePostScripts: false
+shellEmulator: true
 verifyDepsBeforeRun: install
+optimisticRepeatInstall: true
+
+allowBuilds:
+  esbuild: true
