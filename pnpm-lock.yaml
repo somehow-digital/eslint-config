@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@antfu/eslint-config':
         specifier: ^9.0.0
-        version: 9.5.1(5590dae39eb01d41b910a9cfc4e01283)
+        version: 9.5.1(3f13feaf953df6fe23f164465ab5ebf3)
       '@eslint-react/eslint-plugin':
         specifier: ^5.0.0
         version: 5.19.0(eslint@10.10.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@6.0.3)
@@ -19,7 +19,7 @@ importers:
         version: 3.4.2(prettier@3.9.6)
       '@unocss/eslint-plugin':
         specifier: ^66.3.3
-        version: 66.10.2(eslint@10.10.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@6.0.3)
+        version: 66.10.3(eslint@10.10.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@6.0.3)
       eslint-plugin-astro:
         specifier: ^3.0.0
         version: 3.1.0(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2)(@typescript-eslint/parser@8.69.0(eslint@10.10.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@6.0.3))(eslint@10.10.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)
@@ -1414,17 +1414,17 @@ packages:
     resolution: {integrity: sha512-+rmdgPA+EXkNgKYvHvFfhrs35utXbwaC5PGpDquSXcoXQDKUA5UjV0LmTucG/4JXkM31BTu4TilHtrN8IVBe8w==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@unocss/config@66.10.2':
-    resolution: {integrity: sha512-4j2zyh4iftd86lqbWQA/xiXjtuz77lslhq3thrPJKzqaLUnb12r/RuTD+8/tlnYo8qCFp4dglDi9Emvr2+1BzA==}
+  '@unocss/config@66.10.3':
+    resolution: {integrity: sha512-x/fy9S+yyYWyY1ZTuOlh+sVU/MEbgWlHZT2JophWzriRNuqyIBVogf2Ld4o8NbISZi+E/0UjN37kcIpQfbtwmw==}
 
-  '@unocss/core@66.10.2':
-    resolution: {integrity: sha512-KerWey/koorvS8DlBn0Vy98oFYvD0x3wAz+Huw8EDijlXg6rBgmY97lv388at2k98gercEP8eIun1h73JB+Nwg==}
+  '@unocss/core@66.10.3':
+    resolution: {integrity: sha512-FPxRVlR+lf/5SaJhvrHQoYOfqc9fChEonw5pyL4gadnf0E/CP4SGjvbjF17pbBqTG6mC1gvA7gsA2sNbbgGTLw==}
 
-  '@unocss/eslint-plugin@66.10.2':
-    resolution: {integrity: sha512-aLmbgMcBLRVcsc/fyDGtFA1Cvpxs6w+j5c188i6KdQiQO81dQiBBdXO9HPZ5p+haRWMqayjcJJyQmnAQkdFmpg==}
+  '@unocss/eslint-plugin@66.10.3':
+    resolution: {integrity: sha512-1nLaB3OUgON9lS2bJPGSSDz1MIxAKJMyyJ8qamR5U6F1IrI/dlUrPKxJMDaee/K5rquTGM+URl+cPK2Pdpdgjw==}
 
-  '@unocss/rule-utils@66.10.2':
-    resolution: {integrity: sha512-iqLEQBwUylcz7eFtLHx59bUdTzw7mEcb1E6W1KQ1wWqC4RbUpxhS2hG2w/0aBtfna7JnqxoVmNoHQh3V6JLcdQ==}
+  '@unocss/rule-utils@66.10.3':
+    resolution: {integrity: sha512-OgVuaodjpMOpGo9BPaph7a13VQthXXbZ2MG2VAj6sPfwp6SB99TBhJGWnnV7FLYoIbJRa1Z8M2uKabtWywuy3Q==}
 
   '@vitest/eslint-plugin@1.6.27':
     resolution: {integrity: sha512-X1RCAfwbatG4GFbJ/1PIHP9MSZMt0JJThqbYID+vS4L783k6QGlLPe421wQE8dHXuGCcenVLsydiM4qzsYWxhg==}
@@ -3841,7 +3841,7 @@ snapshots:
 
   '@actions/io@3.0.2': {}
 
-  '@antfu/eslint-config@9.5.1(5590dae39eb01d41b910a9cfc4e01283)':
+  '@antfu/eslint-config@9.5.1(3f13feaf953df6fe23f164465ab5ebf3)':
     dependencies:
       '@antfu/install-pkg': 2.0.1
       '@clack/prompts': 1.7.0
@@ -3883,7 +3883,7 @@ snapshots:
     optionalDependencies:
       '@eslint-react/eslint-plugin': 5.19.0(eslint@10.10.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@6.0.3)
       '@prettier/plugin-xml': 3.4.2(prettier@3.9.6)
-      '@unocss/eslint-plugin': 66.10.2(eslint@10.10.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@6.0.3)
+      '@unocss/eslint-plugin': 66.10.3(eslint@10.10.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@6.0.3)
       astro-eslint-parser: 3.1.0(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2)(supports-color@10.2.2)
       eslint-plugin-astro: 3.1.0(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2)(@typescript-eslint/parser@8.69.0(eslint@10.10.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@6.0.3))(eslint@10.10.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)
       eslint-plugin-format: 2.0.1(eslint@10.10.0(jiti@2.7.0)(supports-color@10.2.2))
@@ -5132,21 +5132,21 @@ snapshots:
       '@typescript-eslint/types': 8.69.0
       eslint-visitor-keys: 5.0.1
 
-  '@unocss/config@66.10.2':
+  '@unocss/config@66.10.3':
     dependencies:
-      '@unocss/core': 66.10.2
+      '@unocss/core': 66.10.3
       colorette: 2.0.20
       consola: 3.4.2
       unconfig: 7.5.0
 
-  '@unocss/core@66.10.2': {}
+  '@unocss/core@66.10.3': {}
 
-  '@unocss/eslint-plugin@66.10.2(eslint@10.10.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@6.0.3)':
+  '@unocss/eslint-plugin@66.10.3(eslint@10.10.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@6.0.3)':
     dependencies:
       '@typescript-eslint/utils': 8.69.0(eslint@10.10.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@6.0.3)
-      '@unocss/config': 66.10.2
-      '@unocss/core': 66.10.2
-      '@unocss/rule-utils': 66.10.2
+      '@unocss/config': 66.10.3
+      '@unocss/core': 66.10.3
+      '@unocss/rule-utils': 66.10.3
       magic-string: 1.2.3
       synckit: 0.11.13
     transitivePeerDependencies:
@@ -5154,9 +5154,9 @@ snapshots:
       - supports-color
       - typescript
 
-  '@unocss/rule-utils@66.10.2':
+  '@unocss/rule-utils@66.10.3':
     dependencies:
-      '@unocss/core': 66.10.2
+      '@unocss/core': 66.10.3
       magic-string: 1.2.3
 
   '@vitest/eslint-plugin@1.6.27(@typescript-eslint/eslint-plugin@8.69.0(@typescript-eslint/parser@8.69.0(eslint@10.10.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@6.0.3))(eslint@10.10.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@6.0.3))(eslint@10.10.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@6.0.3)':
