@@ -10,13 +10,13 @@ importers:
     dependencies:
       '@antfu/eslint-config':
         specifier: ^9.0.0
-        version: 9.5.1(69de1a33060f3b6db40dc642d45ca361)
+        version: 9.5.1(c7efab9cd6a1f70174de9c12f194da7e)
       '@eslint-react/eslint-plugin':
         specifier: ^5.0.0
         version: 5.19.1(eslint@10.10.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@6.0.3)
       '@prettier/plugin-xml':
         specifier: ^3.4.2
-        version: 3.4.2(prettier@3.9.6)
+        version: 3.4.2(prettier@3.9.7)
       '@unocss/eslint-plugin':
         specifier: ^66.3.3
         version: 66.10.5(eslint@10.10.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@6.0.3)
@@ -44,7 +44,7 @@ importers:
         version: 2.18.1(cspell@10.3.3)
       '@somehow-digital/prettier-config':
         specifier: ^3.0.0
-        version: 3.0.0(prettier@3.9.6)
+        version: 3.0.0(prettier@3.9.7)
       '@somehow-digital/semantic-release-config':
         specifier: ^2.0.0
         version: 2.1.0(semantic-release@25.0.9(supports-color@10.2.2)(typescript@6.0.3))
@@ -68,7 +68,7 @@ importers:
         version: 17.5.1
       prettier:
         specifier: ^3.6.2
-        version: 3.9.6
+        version: 3.9.7
       semantic-release:
         specifier: ^25.0.0
         version: 25.0.9(supports-color@10.2.2)(typescript@6.0.3)
@@ -3305,8 +3305,8 @@ packages:
     resolution: {integrity: sha512-SxToR7P8Y2lWmv/kTzVLC1t/GDI2WGjMwNhLLE9qtH8Q13C+aEmuRlzDst4Up4s0Wc8sF2M+J57iB3cMLqftfg==}
     engines: {node: '>=6.0.0'}
 
-  prettier@3.9.6:
-    resolution: {integrity: sha512-OpN0zzVdiaiAhxpuuj5efpIS4sY9j7bY6uR5mnj5yPzGkdkjNKSJeUThPb60Jw29QuAZgA4o+/iB49kFiaBX6g==}
+  prettier@3.9.7:
+    resolution: {integrity: sha512-T3mF5P7HFzZVLDQuCUNtJj6WK1pcpLMweMNUVwGb01bLNkH9AkKxtZvmInw8K6bnn2O3d6/5RHl6zSHiBAD0Og==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -3902,7 +3902,7 @@ snapshots:
 
   '@actions/io@3.0.2': {}
 
-  '@antfu/eslint-config@9.5.1(69de1a33060f3b6db40dc642d45ca361)':
+  '@antfu/eslint-config@9.5.1(c7efab9cd6a1f70174de9c12f194da7e)':
     dependencies:
       '@antfu/install-pkg': 2.0.1
       '@clack/prompts': 1.7.0
@@ -3943,7 +3943,7 @@ snapshots:
       yaml-eslint-parser: 2.1.0
     optionalDependencies:
       '@eslint-react/eslint-plugin': 5.19.1(eslint@10.10.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@6.0.3)
-      '@prettier/plugin-xml': 3.4.2(prettier@3.9.6)
+      '@prettier/plugin-xml': 3.4.2(prettier@3.9.7)
       '@unocss/eslint-plugin': 66.10.5(eslint@10.10.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@6.0.3)
       astro-eslint-parser: 3.1.0(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2)(supports-color@10.2.2)
       eslint-plugin-astro: 3.2.0(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2)(@typescript-eslint/parser@8.69.0(eslint@10.10.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@6.0.3))(eslint@10.10.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)
@@ -4952,10 +4952,10 @@ snapshots:
       '@pnpm/network.ca-file': 1.0.2
       config-chain: 1.1.13
 
-  '@prettier/plugin-xml@3.4.2(prettier@3.9.6)':
+  '@prettier/plugin-xml@3.4.2(prettier@3.9.7)':
     dependencies:
       '@xml-tools/parser': 1.0.11
-      prettier: 3.9.6
+      prettier: 3.9.7
 
   '@quansync/fs@1.0.0':
     dependencies:
@@ -5068,9 +5068,9 @@ snapshots:
       '@cspell/dict-de-de': 4.1.2
       cspell: 10.3.3
 
-  '@somehow-digital/prettier-config@3.0.0(prettier@3.9.6)':
+  '@somehow-digital/prettier-config@3.0.0(prettier@3.9.7)':
     dependencies:
-      prettier: 3.9.6
+      prettier: 3.9.7
 
   '@somehow-digital/semantic-release-config@2.1.0(semantic-release@25.0.9(supports-color@10.2.2)(typescript@6.0.3))':
     dependencies:
@@ -5935,7 +5935,7 @@ snapshots:
       eslint-parser-plain: 0.1.1
       ohash: 2.0.12
       oxfmt: 0.35.0
-      prettier: 3.9.6
+      prettier: 3.9.7
       synckit: 0.11.13
 
   eslint-plugin-import-lite@0.6.0(eslint@10.10.0(jiti@2.7.0)(supports-color@10.2.2)):
@@ -7405,7 +7405,7 @@ snapshots:
     dependencies:
       fast-diff: 1.3.0
 
-  prettier@3.9.6: {}
+  prettier@3.9.7: {}
 
   pretty-ms@9.3.1:
     dependencies:
