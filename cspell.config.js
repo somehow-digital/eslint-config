@@ -2,5 +2,5 @@ export default {
 	import: ['@somehow-digital/cspell-dictionary'],
 	language: 'en',
 	version: '0.2',
-	words: ['voidzero'],
+	words: ['Deinhamer', 'voidzero'],
 };
