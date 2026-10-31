@@ -14,7 +14,7 @@
 	],
 	"engines": {
 		"node": ">=22",
-		"pnpm": ">=10"
+		"pnpm": ">=12"
 	},
 	"scripts": {
 		"start": "eslint-config-inspector",
