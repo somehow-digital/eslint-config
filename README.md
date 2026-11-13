@@ -19,3 +19,7 @@ export default config({
 	unocss: true,
 });
 ```
+
+---
+
+[`somehow.digital`](https://somehow.digital/)
