@@ -16,3 +16,7 @@ overrides:
 
 allowBuilds:
   esbuild: true
+
+registries:
+  https://registry.vlt.io/upstream/npm/:
+    scopes: ['@']
