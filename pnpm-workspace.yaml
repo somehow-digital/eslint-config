@@ -2,6 +2,10 @@ blockExoticSubdeps: true
 minimumReleaseAgeExcludePrune: true
 trustPolicy: no-downgrade
 trustPolicyIgnoreAfter: 10080
+
+trustPolicyExclude:
+  - tsrs@7.1.0-beta.tsrs2
+
 enablePrePostScripts: false
 shellEmulator: true
 verifyDepsBeforeRun: install
