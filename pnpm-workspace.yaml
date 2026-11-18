@@ -6,6 +6,10 @@ trustPolicyIgnoreAfter: 10080
 trustPolicyExclude:
   - tsrs@7.1.0-beta.tsrs2
 
+registries:
+  https://registry.vlt.io/upstream/npm/:
+    scopes: ['@']
+
 enablePrePostScripts: false
 shellEmulator: true
 verifyDepsBeforeRun: install
@@ -16,7 +20,3 @@ overrides:
 
 allowBuilds:
   esbuild: true
-
-registries:
-  https://registry.vlt.io/upstream/npm/:
-    scopes: ['@']
