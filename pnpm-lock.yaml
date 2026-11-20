@@ -217,7 +217,7 @@ importers:
         version: 3.0.0(prettier@3.10.1)
       '@somehow-digital/semantic-release-config':
         specifier: ^2.0.0
-        version: 2.1.0(semantic-release@26.0.1(supports-color@10.2.2))
+        version: 2.1.1(semantic-release@26.0.1(supports-color@10.2.2))
       concurrently:
         specifier: ^10.0.0
         version: 10.0.7
@@ -1801,11 +1801,11 @@ packages:
     peerDependencies:
       prettier: ^3.0.3
 
-  '@somehow-digital/semantic-release-config@2.1.0':
-    resolution: {integrity: sha512-mmj5cCgfLAriM0V2zlsTwRo+brLNnI9OPFA+yPxnvK4jYd7s8JixRTKTVZNMFYDOVDqJAv8IGqg7HvANeZyTwQ==}
-    engines: {node: '>=20', pnpm: '>=10'}
+  '@somehow-digital/semantic-release-config@2.1.1':
+    resolution: {integrity: sha512-L3duwzc06SJ02uqMMWEeif2W//bCUT4NqAoXRy2magheJUdd0Uo1xgcTdexXUtKjmWeekN00Z8a8JFQhaPjGvA==}
+    engines: {node: '>=20', pnpm: '>=12'}
     peerDependencies:
-      semantic-release: ^24.0.0 || ^25.0.0
+      semantic-release: ^24.0.0 || ^25.0.0 || ^26.0.0
 
   '@streetsidesoftware/unindent@1.0.1':
     resolution: {integrity: sha512-ZXfg7MT3AT9ZOq/hgzbqNc01zVPG+PFkr+kbB2OHlMcNrtvK10ZPkNgy38MqTErjNeajh4VG1sSSv5zIyjOXxg==}
@@ -2369,9 +2369,6 @@ packages:
   aria-query@5.3.0:
     resolution: {integrity: sha512-b0P0sZPKtyu8HkeRAfCq0IfURZK+SuwMjY1UXGBU27wpAiTwQAIlq56IbIO+ytk/JjS1fMR14ee5WBBfKi5J6A==}
 
-  array-ify@1.0.0:
-    resolution: {integrity: sha512-c5AMf34bKdvPhQ7tBGhqkgKNUzMr4WUs+WDtC2ZUGOUncbxKMTvqxYctiseW3+L4bA8ec+GcZ6/A/FW4m8ukng==}
-
   array-timsort@1.0.3:
     resolution: {integrity: sha512-/+3GRL7dDAGEfM6TseQk/U+mi18TU2Ms9I3UlLdUMhz2hbvGNTKdj9xniwXfUqgYhHxRx0+8UnKkvlNwVU+cWQ==}
 
@@ -2540,9 +2537,6 @@ packages:
     resolution: {integrity: sha512-+2AvZKjJaNq9GQljm3tr0utwrig5BL+jgJGvz5rDpGKNIp+ojcRXWUwBbh/sGIi1QCprR6PsKFakub+w1v+4hQ==}
     engines: {node: '>= 12.0.0'}
 
-  compare-func@2.0.0:
-    resolution: {integrity: sha512-zHig5N+tPWARooBnb0Zx1MFcdfpyJrfTJ3Y5L+IFvUm8rM74hHz66z0gw0x4tijh5CorKkKUCnW82R2vmpeCRA==}
-
   compare-versions@6.1.1:
     resolution: {integrity: sha512-4hm4VPpIecmlg59CHXnRDnqGplJFrbLG4aFEl5vl6cK1u76ws3LLvX7ikFnTDl5vo39sjWD6AaDPYodJp/NNHg==}
 
@@ -2575,10 +2569,6 @@ packages:
   conventional-changelog-conventionalcommits@10.4.1:
     resolution: {integrity: sha512-jS1LRFSbRoAr6JbhhRy1JYfNNUj5LM3+v49hRE03CgccsiYqgdVj/RTmrw4J1rylrqijHwdOlJWiJa61JHOgHg==}
     engines: {node: '>=22'}
-
-  conventional-changelog-conventionalcommits@9.3.1:
-    resolution: {integrity: sha512-dTYtpIacRpcZgrvBYvBfArMmK2xvIpv2TaxM0/ZI5CBtNUzvF2x0t15HsbRABWprS6UPmvj+PzHVjSx4qAVKyw==}
-    engines: {node: '>=18'}
 
   conventional-changelog-writer@9.3.0:
     resolution: {integrity: sha512-lxiECDlvy880e7JIYAtAhxg0wD/CGCVbZCdeua5aOlQVFTEd39zAeOzwK22i/FO4xnEOURK1gbUTETNEYW7zxQ==}
@@ -2742,10 +2732,6 @@ packages:
 
   dom-accessibility-api@0.5.16:
     resolution: {integrity: sha512-X7BJ2yElsnOJ30pZF4uIIDfBEVgF4XEBxL9Bxhy6dnrm5hkzqmsWHGTiHqRiITNhMyFLyAiWndIJP7Z1NTteDg==}
-
-  dot-prop@5.3.0:
-    resolution: {integrity: sha512-QM8q3zDe58hqUqjraQOmzZ1LIH9SWQJTlEKCH4kJ2oQvLZk7RbQXvtDM2XEq3fwkV9CCvvH4LA0AV+ogFsBM2Q==}
-    engines: {node: '>=8'}
 
   duplexer2@0.1.4:
     resolution: {integrity: sha512-asLFVfWWtJ90ZyOUHMqk7/S2w2guQKxUI2itj3d92ADHhxUSbCMGi1f1cBcJ7xM1To+pE/Khbwo1yuNbMEPKeA==}
@@ -3462,10 +3448,6 @@ packages:
   is-number@7.0.0:
     resolution: {integrity: sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==}
     engines: {node: '>=0.12.0'}
-
-  is-obj@2.0.0:
-    resolution: {integrity: sha512-drqDG3cbczxxEJRoOXcOjtdp1J/lyp1mNn0xaznRs8+muBhgQcrnbspox5X5fOw0HnMnbfDzvnEMEtqDEJEo8w==}
-    engines: {node: '>=8'}
 
   is-plain-obj@4.1.0:
     resolution: {integrity: sha512-+Pgi+vMuUNkJyExiMBt5IlFoMyKnr5zhJ4Uspz58WOhBF5QoIZkFyNHIbBAtHwzVAgk5RtndVNsDRN61/mmDqg==}
@@ -6351,9 +6333,9 @@ snapshots:
     dependencies:
       prettier: 3.10.1
 
-  '@somehow-digital/semantic-release-config@2.1.0(semantic-release@26.0.1(supports-color@10.2.2))':
+  '@somehow-digital/semantic-release-config@2.1.1(semantic-release@26.0.1(supports-color@10.2.2))':
     dependencies:
-      conventional-changelog-conventionalcommits: 9.3.1
+      conventional-changelog-conventionalcommits: 10.4.1
       semantic-release: 26.0.1(supports-color@10.2.2)
 
   '@streetsidesoftware/unindent@1.0.1': {}
@@ -6878,8 +6860,6 @@ snapshots:
     dependencies:
       dequal: 2.0.3
 
-  array-ify@1.0.0: {}
-
   array-timsort@1.0.3: {}
 
   assertion-error@2.0.1: {}
@@ -7039,11 +7019,6 @@ snapshots:
 
   comment-parser@1.4.9: {}
 
-  compare-func@2.0.0:
-    dependencies:
-      array-ify: 1.0.0
-      dot-prop: 5.3.0
-
   compare-versions@6.1.1: {}
 
   concurrently@10.0.7:
@@ -7075,10 +7050,6 @@ snapshots:
   conventional-changelog-conventionalcommits@10.4.1:
     dependencies:
       '@conventional-changelog/template': 1.4.0
-
-  conventional-changelog-conventionalcommits@9.3.1:
-    dependencies:
-      compare-func: 2.0.0
 
   conventional-changelog-writer@9.3.0:
     dependencies:
@@ -7271,10 +7242,6 @@ snapshots:
       path-type: 4.0.0
 
   dom-accessibility-api@0.5.16: {}
-
-  dot-prop@5.3.0:
-    dependencies:
-      is-obj: 2.0.0
 
   duplexer2@0.1.4:
     dependencies:
@@ -8067,8 +8034,6 @@ snapshots:
       is-extglob: 2.1.1
 
   is-number@7.0.0: {}
-
-  is-obj@2.0.0: {}
 
   is-plain-obj@4.1.0: {}
 
